@@ -1,50 +1,514 @@
 <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"20px","bottom":"20px"}}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
-<div
-	style="
-		width: 100%;
-		background-color: #000000;
-		padding: 8px;
-	"
->
-	<a href="mailto:company@mail.com">
-		<i class="fas fa-envelope" style="color: #FFFFFF;"></i>
-		<span style="color: #FFFFFF;">company@mail.com</span>
-	</a>
-</div>
-<div class="wp-block-group alignwide has-base-background-color has-background"
-	style="
-		background-image: linear-gradient(gray, white);
-		padding-top:20px;padding-bottom:20px;
-		border: ridge 1px blue;
-	"
->
-	<!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
-	<div
-		class="wp-block-group alignwide"
-		style="
-			border: ridge 1px red;
-		"
-	>
-		<img
-			width="10%"
-			src="wp-content/themes/mj3/assets/images/favicon.png"
-		/>
-		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"},"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex"}} -->
-		<div class="wp-block-group">
-			<!-- wp:group {"style":{"spacing":{"blockGap":"0px"}}} -->
-			<div class="wp-block-group" style="border: ridge 1px none;">
-				<!-- b>Company Name</b-->
-			</div>
-			<!-- /wp:group -->
-		</div>
-		<!-- /wp:group -->
+<link rel="stylesheet" href="https://argenisosorio.github.io/inmensidad-gaitera/assets/font-awesome-6/css/fontawesome.css">
+<link rel="stylesheet" href="https://argenisosorio.github.io/inmensidad-gaitera/assets/font-awesome-6/css/all.css">
+<style>
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
 
-		<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left"}} -->
-		<div class="wp-block-group" style="border: ridge 1px none;">
-			<!-- wp:navigation {"layout":{"type":"flex","justifyContent":"right","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0"},"blockGap":"var:preset|spacing|20"},"layout":{"selfStretch":"fit","flexSize":null}}} /-->
-		</div>
-		<!-- /wp:group -->
-	</div>
-	<!-- /wp:group -->
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.bg-light {
+    background-image: linear-gradient(90deg, #FFFFFF, #FFFFFF);
+}
+
+.nav-link {
+    color: #000000 !important;
+}
+
+.nav-link:hover {
+    border-bottom: solid 1px blue;
+}
+
+.navbar-toggler {
+    color: #FFFFFF !important;
+    background-color: orangered !important;
+}
+
+.navbar-text {
+    color: #FFFFFF !important;
+}
+
+.footer {
+    background-color: #395da3 !important;
+}
+
+.img-zoom {
+    transform:scale(1);
+    -ms-transform:scale(1);
+    -moz-transform:scale(1);
+    -webkit-transform:scale(1);
+    -o-transform:scale(1);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+}
+
+.img-zoom:hover {
+    transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    -o-transform:scale(1.2);
+}
+
+.img-rotate {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+}
+
+.img-rotate:hover{
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.background-gradient {
+    background-image: linear-gradient(#000000, #0732a2);
+}
+
+.background-gradient-invert {
+    background-image: linear-gradient(135deg, #0764A3, #0C07A3, #0732A2, #3F07A3);
+}
+
+.background-gray {
+    background-color: #EEE;
+}
+
+.background-blue {
+    background-color: #0732a2;
+}
+
+.background-black {
+    background-color: #000000;
+}
+
+.btn-blue {
+    background-color: #395da3 !important;
+}
+
+.text-grad {
+    font-size: 72px;
+    background: -webkit-linear-gradient(left, #EB9916, #FFFFFF);
+    background: linear-gradient(to right, #EB9916, #FFFFFF); /* Propiedad estándar */
+    -webkit-background-clip: text;
+    background-clip: text; /* Propiedad estándar */
+    -webkit-text-fill-color: transparent;
+}
+
+hr {
+    color: #0732a2;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #1f1f1f 0%, gray  51%, #1f1f1f  100%);
+    padding: 10px 25px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color:#FFFFFF;
+    border-radius: 10px;
+    border: ridge 1px transparent;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #FFFFFF;
+    text-decoration: none;
+    border: ridge 1px transparent;
+}
+
+/****************/
+/* Custom Fonts */
+/****************/
+
+/* section-1 */
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("../../fonts/OpenSans-Bold.ttf");
+}
+/* section-2 */
+@font-face {
+    font-family: "OpenSans-BoldItalic";
+    src: url("../../fonts/OpenSans-BoldItalic.ttf");
+}
+/* section-3 */
+@font-face {
+    font-family: "OpenSans-ExtraBold";
+    src: url("../../fonts/OpenSans-ExtraBold.ttf");
+}
+/* section-4 */
+@font-face {
+    font-family: "OpenSans-ExtraBoldItalic";
+    src: url("../../fonts/OpenSans-ExtraBoldItalic.ttf");
+}
+/* section-5 */
+@font-face {
+    font-family: "OpenSans-Italic";
+    src: url("../../fonts/OpenSans-Italic.ttf");
+}
+/* section-6 */
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("../../fonts/OpenSans-Light.ttf");
+}
+/* section-7 */
+@font-face {
+    font-family: "OpenSans-LightItalic";
+    src: url("../../fonts/OpenSans-LightItalic.ttf");
+}
+/* section-8 */
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("../../fonts/OpenSans-Regular.ttf");
+}
+/* section-9 */
+@font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url("../../fonts/OpenSans-SemiBold.ttf");
+}
+/* section-10 */
+@font-face {
+    font-family: "OpenSans-SemiBoldItalic";
+    src: url("../../fonts/OpenSans-SemiBoldItalic.ttf");
+}
+@font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url("../../fonts/OpenSans-SemiBold.ttf");
+}
+@font-face {
+    font-family: "CustomFont";
+    src: url("../../fonts/Mentalis.otf");
+    /*
+    src: url("https://yoursite.com/css/fonts/CustomFont.eot");
+    src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),
+    url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),
+    url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
+    */
+}
+.section-1 {
+    font-family: "OpenSans-Bold", sans-serif;
+}
+.section-2 {
+    font-family: "OpenSans-BoldItalic", sans-serif;
+}
+.section-3 {
+    font-family: "OpenSans-ExtraBold", sans-serif;
+}
+.section-4 {
+    font-family: "OpenSans-ExtraBoldItalic", sans-serif;
+}
+.section-5 {
+    font-family: "OpenSans-Italic", sans-serif;
+}
+.section-6 {
+    font-family: "OpenSans-Light", sans-serif;
+}
+.section-7 {
+    font-family: "OpenSans-LightItalic", sans-serif;
+}
+.section-8 {
+    font-family: "OpenSans-Regular", sans-serif;
+}
+.section-9 {
+    font-family: "OpenSans-SemiBold", sans-serif;
+}
+.section-10 {
+    font-family: "OpenSans-SemiBoldItalic", sans-serif;
+}
+
+.title-font {
+    font-family: 'CustomFont', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+}
+
+/*****************/
+/* Media queries */
+/*****************/
+
+/* Pantallas grandes (escritorio) */
+@media (min-width: 992px) {
+    .col-2 {
+        display: block;
+    }
+    .col-4 {
+        width: 33.3333%;
+    }
+    .title-font {
+        font-size: 3.5rem;
+        background: -webkit-linear-gradient(left, #FFFFFF, gray);
+        background: linear-gradient(to right, #FFFFFF, gray); /* versión estándar */
+        -webkit-background-clip: text; /* versión con prefijo */
+        background-clip: text; /* versión estándar */
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-2 {
+        display: none;
+    }
+    .col-4 {
+        width: 50%;
+    }
+    .col-4 img {
+        width: 100%;
+    }
+    .title-font {
+        font-size: 3rem;
+        background: -webkit-linear-gradient(left, #FFFFFF, gray);
+        background: linear-gradient(to right, #FFFFFF, gray); /* versión estándar */
+        -webkit-background-clip: text; /* versión con prefijo */
+        background-clip: text; /* versión estándar */
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+/* Móviles */
+@media (max-width: 767px) {
+    .col-2 {
+        display: none;
+    }
+    .col-4 {
+        width: 100%;
+    }
+    .mq-col-4 {
+        /*border: ridge 1px green;*/
+        margin-left: 15px;
+        margin-top: -30px;
+    }
+    .mq-about-us {
+        margin-top: 55px;
+    }
+    .col-4 img {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        margin-top: 15px;
+    }
+    .mapswrapper iframe {
+        width: 100%;
+        height: auto;
+    }
+    .title-font {
+        font-size: 3rem;
+        background: -webkit-linear-gradient(left, #FFFFFF, gray);
+        background: linear-gradient(to right, #FFFFFF, gray); /* versión estándar */
+        -webkit-background-clip: text; /* versión con prefijo */
+        background-clip: text; /* versión estándar */
+        -webkit-text-fill-color: transparent;
+    }
+    .carousel {
+        margin: 0 auto;
+    }
+}
+
+/* Efecto aparición de las secciones */
+section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.text-decoration-none:hover {
+    color: lightgray !important;
+}
+
+.carousel {
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-images img {
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+/* Barra de progreso */
+#progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px; /* Altura de la barra */
+    background-color: orangered; /* Color de la barra */
+    width: 0%; /* Ancho inicial */
+    z-index: 1000; /* Aparece encima de todo */
+}
+</style>
+
+<!-- Barra de progreso -->
+<div id="progressBar"></div>
+
+<div
+    style="
+        width: 100%;
+        background-color: #000000;
+        padding: 10px;
+    "
+>
+    <div class="container">
+        <div class="row" style="border: ridge 1px transparent;">
+            <div class="col-4" style="border: ridge 1px transparent;">
+                <a href="mailto:company@mail.com" class="text-decoration-none">
+                    <i class="fas fa-envelope" style="color: #FFFFFF;"></i>
+                    <span style="color: #FFFFFF;">company@mail.com</span>
+                </a>
+            </div>
+            <div class="col-6">
+            </div>
+            <div class="col-2">
+                <a
+                    href="#"
+                    class="text-decoration-none"
+                    style="
+                        margin-right: 10px;
+                        font-size: 20px;
+                    "
+                >
+                    <i class="fa-brands fa-facebook" style="color: #FFFFFF;"></i>
+                </a>
+                <a
+                    href="#"
+                    class="text-decoration-none"
+                    style="
+                        margin-right: 10px;
+                        font-size: 20px;
+                    "
+                >
+                    <i class="fa-brands fa-instagram" style="color: #FFFFFF;"></i>
+                </a>
+                <a
+                    href="#"
+                    class="text-decoration-none"
+                    style="
+                        font-size: 20px;
+                    "
+                >
+                    <i class="fa-brands fa-tiktok" style="color: #FFFFFF;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
+
+<!-- Bloque del header -->
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img
+                    src="wp-content/themes/mj3/assets/images/favicon.png"
+                    alt="image"
+                    width="100"
+                    class="d-inline-block align-text-top img-zoom"
+                >
+            </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+                class="collapse navbar-collapse section-9"
+                id="navbarSupportedContent"
+            >
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre_nosotros">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#integrantes">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactanos">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<!-- Final del Bloque del header -->
 <!-- /wp:group -->

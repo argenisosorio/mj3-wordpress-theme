@@ -116,4 +116,29 @@
 	</div>
 	<!-- /wp:group -->
 </div>
+
+<script src="https://argenisosorio.github.io/inmensidad-gaitera/assets/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+	// Selecciona la barra de progreso
+	const progressBar = document.getElementById('progressBar');
+
+	// Escuchar el evento de scroll
+	window.addEventListener('scroll', () => {
+	// Altura total del documento
+	const scrollHeight = document.documentElement.scrollHeight;
+
+	// Altura visible de la ventana
+	const clientHeight = document.documentElement.clientHeight;
+
+	// Distancia desplazada desde la parte superior
+	const scrollTop = document.documentElement.scrollTop;
+
+	// Calcular el porcentaje de progreso
+	const scrollPercentage = (scrollTop / (scrollHeight - clientHeight)) * 100;
+
+	// Actualizar el ancho de la barra
+	progressBar.style.width = `${scrollPercentage}%`;
+	});
+</script>
 <!-- /wp:group -->

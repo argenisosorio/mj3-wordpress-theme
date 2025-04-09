@@ -210,3 +210,7 @@ add_action( 'wp_enqueue_scripts', 'enqueue_load_fa' );
 function enqueue_load_fa() {
     wp_enqueue_style( 'load-fa', 'https://pro.fontawesome.com/releases/v5.15.4/css/all.css' );
 }
+
+add_action ('wp_enqueue_scripts',function () {
+	wp_enqueue_style ('bootstrap', 'https://argenisosorio.github.io/inmensidad-gaitera/assets/dist/css/bootstrap.min.css');
+});
