@@ -33,7 +33,7 @@
 					class="img-zoom"
 					width="60%"
 					src="
-						<?php echo esc_url( get_template_directory_uri() );?>/assets/images/logo-brand.png"
+						<?php echo esc_url( get_template_directory_uri() );?>/assets/images/favicon.png"
 						alt="<?php esc_attr_e( '', 'twentytwentyfour' );?>
 					"
 				/>
