@@ -10,26 +10,42 @@
 
 <div
 	class="section section-1 py-5 container-fluid background-gradient-invert"
-	style="border: ridge 1px blue;"
 >
+    <!-- Video de fondo -->
+    <div class="video-background">
+        <video autoplay loop muted>
+            <source
+                src="
+                    <?php echo esc_url( get_template_directory_uri() );
+                    ?>/assets/videos/video.webm" alt="<?php esc_attr_e( '',
+                    'twentytwentyfour' );
+                    ?>
+                "
+                type="video/mp4"
+            >
+        </video>
+    </div>
     <div class="py-lg-3 position-relative">
-        <div class="row text-center" style="min-height: 350px;">
+        <div class="row text-center" style="min-height: 500px;">
             <div class="col-2">
             </div>
             <div class="col-8" style="border: ridge 1px transparent;">
                 <div
-                    class="card"
+                    class="card card-margin-top"
                     style="
-                        margin-top: 50px;
                         background-color: #18181894; border: none;
                         color: white;
                     "
                 >
                     <div class="card-body">
-                        <h5 class="card-title" style="color: white;">
+                        <h3 class="card-title" style="color: white;">
                             <b>COMPANY NAME</b>
-                        </h5>
+                        </h3>
                         <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            <br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             <br>

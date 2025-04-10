@@ -163,7 +163,7 @@ hr {
     transition: 0.5s;
     background-size: 200% auto;
     color: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 0px;
     border: ridge 1px orangered;
 }
 
@@ -200,6 +200,9 @@ hr {
         -webkit-background-clip: text; /* versión con prefijo */
         background-clip: text; /* versión estándar */
         -webkit-text-fill-color: transparent;
+    }
+    .card-margin-top {
+        margin-top: 120px;
     }
 }
 
@@ -267,6 +270,9 @@ hr {
     .carousel {
         margin: 0 auto;
     }
+    .card-margin-top {
+        margin-top: 60px;
+    }
 }
 
 /* Efecto aparición de las secciones */
@@ -332,6 +338,18 @@ hr {
 
 .text-decoration-none:hover span {
     color: orangered !important; /* Cambia el color del texto dentro del span */
+}
+
+/* Estilos del video de fondo */
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Asegura que el video abarque todo el ancho */
+    height: 100%; /* Asegura que el video abarque toda la altura */
+    z-index: -1; /* Coloca el video detrás del contenido */
+    object-fit: cover; /* Hace que el video cubra todo el espacio sin deformarse */
+    overflow: hidden; /* Evita desbordamiento si el video excede el tamaño */
 }
 </style>
 
@@ -401,7 +419,7 @@ hr {
 <!-- Cintillo negro -->
 
 <!-- Bloque del header -->
-<div class="container main-navbar" style="border: ridge 1px red;">
+<div class="container main-navbar" style="border: ridge 1px transparent;">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="http://127.0.0.1/wordpress/">
