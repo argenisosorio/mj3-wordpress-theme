@@ -89,3 +89,12 @@ Pasos a seguir:
 
 1- Cambiar el Nombre de la empresa y el favicon en Dashboard > Settings >
 General Settings.
+
+2- Subir el favicon a la galería y poner la url completa en
+/wp-content/themes/mj3/parts/header.html en image src favicon.
+
+3- En /wp-content/themes/mj3/parts/header.html poner los enlaces y títulos en
+la navbar.
+
+4- En /wp-content/themes/mj3/parts/header.html agregar los enlaces a las redes\
+sociales.

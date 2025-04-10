@@ -141,4 +141,24 @@
 	progressBar.style.width = `${scrollPercentage}%`;
 	});
 </script>
+
+<script>
+    /* Código para hacer rotar una imagen cada 10seg */
+    const logo = document.querySelector('.navbar-brand img');
+
+    function rotateLogo() {
+        // Agregar la clase para iniciar la animación
+        logo.style.transition = 'transform 1s ease-in-out';
+        logo.style.transform = 'rotate(360deg)';
+
+        // Reiniciar la rotación después de 1 segundo
+        setTimeout(() => {
+            logo.style.transition = 'none';
+            logo.style.transform = 'rotate(0deg)';
+        }, 1000);
+    }
+
+    // Ejecutar la rotación cada 10 segundos
+    setInterval(rotateLogo, 10000);
+</script>
 <!-- /wp:group -->

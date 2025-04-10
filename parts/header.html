@@ -62,7 +62,8 @@
 }
 
 .nav-link:hover {
-    border-bottom: solid 1px blue;
+    color: orangered !important;
+    /*border-bottom: solid 1px orangered;*/
 }
 
 .navbar-toggler {
@@ -175,105 +176,6 @@ hr {
     color: #FFFFFF;
     text-decoration: none;
     border: ridge 1px transparent;
-}
-
-/****************/
-/* Custom Fonts */
-/****************/
-
-/* section-1 */
-@font-face {
-    font-family: "OpenSans-Bold";
-    src: url("../../fonts/OpenSans-Bold.ttf");
-}
-/* section-2 */
-@font-face {
-    font-family: "OpenSans-BoldItalic";
-    src: url("../../fonts/OpenSans-BoldItalic.ttf");
-}
-/* section-3 */
-@font-face {
-    font-family: "OpenSans-ExtraBold";
-    src: url("../../fonts/OpenSans-ExtraBold.ttf");
-}
-/* section-4 */
-@font-face {
-    font-family: "OpenSans-ExtraBoldItalic";
-    src: url("../../fonts/OpenSans-ExtraBoldItalic.ttf");
-}
-/* section-5 */
-@font-face {
-    font-family: "OpenSans-Italic";
-    src: url("../../fonts/OpenSans-Italic.ttf");
-}
-/* section-6 */
-@font-face {
-    font-family: "OpenSans-Light";
-    src: url("../../fonts/OpenSans-Light.ttf");
-}
-/* section-7 */
-@font-face {
-    font-family: "OpenSans-LightItalic";
-    src: url("../../fonts/OpenSans-LightItalic.ttf");
-}
-/* section-8 */
-@font-face {
-    font-family: "OpenSans-Regular";
-    src: url("../../fonts/OpenSans-Regular.ttf");
-}
-/* section-9 */
-@font-face {
-    font-family: "OpenSans-SemiBold";
-    src: url("../../fonts/OpenSans-SemiBold.ttf");
-}
-/* section-10 */
-@font-face {
-    font-family: "OpenSans-SemiBoldItalic";
-    src: url("../../fonts/OpenSans-SemiBoldItalic.ttf");
-}
-@font-face {
-    font-family: "OpenSans-SemiBold";
-    src: url("../../fonts/OpenSans-SemiBold.ttf");
-}
-@font-face {
-    font-family: "CustomFont";
-    src: url("../../fonts/Mentalis.otf");
-    /*
-    src: url("https://yoursite.com/css/fonts/CustomFont.eot");
-    src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),
-    url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),
-    url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
-    */
-}
-.section-1 {
-    font-family: "OpenSans-Bold", sans-serif;
-}
-.section-2 {
-    font-family: "OpenSans-BoldItalic", sans-serif;
-}
-.section-3 {
-    font-family: "OpenSans-ExtraBold", sans-serif;
-}
-.section-4 {
-    font-family: "OpenSans-ExtraBoldItalic", sans-serif;
-}
-.section-5 {
-    font-family: "OpenSans-Italic", sans-serif;
-}
-.section-6 {
-    font-family: "OpenSans-Light", sans-serif;
-}
-.section-7 {
-    font-family: "OpenSans-LightItalic", sans-serif;
-}
-.section-8 {
-    font-family: "OpenSans-Regular", sans-serif;
-}
-.section-9 {
-    font-family: "OpenSans-SemiBold", sans-serif;
-}
-.section-10 {
-    font-family: "OpenSans-SemiBoldItalic", sans-serif;
 }
 
 .title-font {
@@ -466,12 +368,12 @@ section {
 </div>
 
 <!-- Bloque del header -->
-<div class="container">
+<div class="container" style="border: ridge 1px red;">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img
-                    src="wp-content/themes/mj3/assets/images/favicon.png"
+                    src="http://127.0.0.1/wordpress/wp-content/themes/mj3/assets/images/favicon.png"
                     alt="image"
                     width="100"
                     class="d-inline-block align-text-top img-zoom"
@@ -494,16 +396,37 @@ section {
             >
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">HOME</a>
+                        <a
+                            class="nav-link active"
+                            aria-current="page"
+                            href="http://127.0.0.1/wordpress/"
+                        >
+                            <b>HOME</b>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#sobre_nosotros">ABOUT</a>
+                        <a
+                            class="nav-link"
+                            href="http://127.0.0.1/wordpress/index.php/about/"
+                        >
+                            <b>ABOUT</b>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#integrantes">SERVICES</a>
+                        <a
+                            class="nav-link"
+                            href="http://127.0.0.1/wordpress/index.php/services/"
+                        >
+                            <b>SERVICES</b>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contactanos">CONTACT</a>
+                        <a
+                            class="nav-link"
+                            href="http://127.0.0.1/wordpress/index.php/contact/"
+                        >
+                            <b>CONTACT</b>
+                        </a>
                     </li>
                 </ul>
             </div>

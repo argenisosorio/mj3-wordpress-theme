@@ -17,7 +17,7 @@
 		;padding-bottom:var(--wp--preset--spacing--50);
 		padding-left:var(--wp--preset--spacing--50);
 		background-color: #FFFFFF;
-		border: ridge 1px none;
+		border: ridge 1px blue;
 	"
 >
 
