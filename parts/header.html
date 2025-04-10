@@ -143,10 +143,6 @@
     background-color: #000000;
 }
 
-.btn-blue {
-    background-color: #395da3 !important;
-}
-
 .text-grad {
     font-size: 72px;
     background: -webkit-linear-gradient(left, #EB9916, #FFFFFF);
@@ -161,21 +157,22 @@ hr {
 }
 
 .btn-grad {
-    background-image: linear-gradient(to right, #1f1f1f 0%, gray  51%, #1f1f1f  100%);
+    background-image: linear-gradient(to right, orangered, orangered);
     padding: 10px 25px;
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
-    color:#FFFFFF;
+    color: #FFFFFF;
     border-radius: 10px;
-    border: ridge 1px transparent;
+    border: ridge 1px orangered;
 }
 
 .btn-grad:hover {
+    background-image: linear-gradient(to right, #000000, orangered);
     background-position: right center; /* change the direction of the change here */
     color: #FFFFFF;
     text-decoration: none;
-    border: ridge 1px transparent;
+    border: ridge 1px #000000;
 }
 
 .title-font {
@@ -233,6 +230,12 @@ hr {
         display: none;
     }
     .col-4 {
+        width: 100%;
+    }
+    .col-8 {
+        width: 100%;
+    }
+    .col-3 {
         width: 100%;
     }
     .mq-col-4 {
@@ -359,9 +362,9 @@ hr {
                     </span>
                 </a>
             </div>
-            <div class="col-6">
+            <div class="col-5">
             </div>
-            <div class="col-2">
+            <div class="col-3" style="border: ridge 1px transparent; text-align: right;">
                 <a
                     href="#"
                     class="text-decoration-none"
