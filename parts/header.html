@@ -128,7 +128,7 @@
 }
 
 .background-gradient-invert {
-    background-image: linear-gradient(135deg, #0764A3, #0C07A3, #0732A2, #3F07A3);
+    background-image: linear-gradient(135deg, #d8d8d8, #0085b9, #0080b3, #d8d8d8);
 }
 
 .background-gray {
@@ -267,7 +267,19 @@ hr {
 }
 
 /* Efecto aparición de las secciones */
-section {
+.section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.cintillo {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.main-navbar {
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
@@ -276,10 +288,6 @@ section {
 .visible {
     opacity: 1;
     transform: translateY(0);
-}
-
-.text-decoration-none:hover {
-    color: lightgray !important;
 }
 
 .carousel {
@@ -310,12 +318,26 @@ section {
     width: 0%; /* Ancho inicial */
     z-index: 1000; /* Aparece encima de todo */
 }
+
+.text-decoration-none:hover {
+    color: orangered !important; /* Cambia el color del texto */
+}
+
+.text-decoration-none:hover i {
+    color: orangered !important; /* Cambia el color del ícono */
+}
+
+.text-decoration-none:hover span {
+    color: orangered !important; /* Cambia el color del texto dentro del span */
+}
 </style>
 
 <!-- Barra de progreso -->
 <div id="progressBar"></div>
 
+<!-- Cintillo negro -->
 <div
+    class="cintillo"
     style="
         width: 100%;
         background-color: #000000;
@@ -325,9 +347,16 @@ section {
     <div class="container">
         <div class="row" style="border: ridge 1px transparent;">
             <div class="col-4" style="border: ridge 1px transparent;">
-                <a href="mailto:company@mail.com" class="text-decoration-none">
+                <a
+                    class="text-decoration-none"
+                    href="mailto:company@mail.com"
+                >
                     <i class="fas fa-envelope" style="color: #FFFFFF;"></i>
-                    <span style="color: #FFFFFF;">company@mail.com</span>
+                    <span
+                        style="color: #FFFFFF;"
+                    >
+                        company@mail.com
+                    </span>
                 </a>
             </div>
             <div class="col-6">
@@ -366,12 +395,13 @@ section {
         </div>
     </div>
 </div>
+<!-- Cintillo negro -->
 
 <!-- Bloque del header -->
-<div class="container" style="border: ridge 1px red;">
+<div class="container main-navbar" style="border: ridge 1px red;">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="http://127.0.0.1/wordpress/">
                 <img
                     src="http://127.0.0.1/wordpress/wp-content/themes/mj3/assets/images/favicon.png"
                     alt="image"

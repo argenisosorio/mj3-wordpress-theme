@@ -96,5 +96,5 @@ General Settings.
 3- En /wp-content/themes/mj3/parts/header.html poner los enlaces y títulos en
 la navbar.
 
-4- En /wp-content/themes/mj3/parts/header.html agregar los enlaces a las redes\
-sociales.
+4- En /wp-content/themes/mj3/parts/header.html agregar los enlaces a las redes
+sociales del cintillo negro y al logo brand.

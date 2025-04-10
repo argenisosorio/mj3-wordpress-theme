@@ -161,4 +161,31 @@
     // Ejecutar la rotación cada 10 segundos
     setInterval(rotateLogo, 10000);
 </script>
+
+<script>
+	// Script JavaScript para efecto de aparición
+	const sections = document.querySelectorAll('.section');
+	const cintillo = document.querySelectorAll('.cintillo');
+	const main_navbar = document.querySelectorAll('.main-navbar');
+
+	const observer = new IntersectionObserver(entries => {
+	entries.forEach(entry => {
+		if (entry.isIntersecting) {
+		entry.target.classList.add('visible');
+		}
+	});
+	}, { threshold: 0.1 });
+
+	sections.forEach(section => {
+		observer.observe(section);
+	});
+
+	cintillo.forEach(x => {
+		observer.observe(x);
+	});
+
+	main_navbar.forEach(y => {
+		observer.observe(y);
+	});
+</script>
 <!-- /wp:group -->
