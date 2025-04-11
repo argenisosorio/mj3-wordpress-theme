@@ -8,127 +8,112 @@
  */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<div
-	class="wp-block-group alignfull"
-	style="
-		margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);
-		padding-right:var(--wp--preset--spacing--50);
-		padding-bottom:var(--wp--preset--spacing--50);
-		padding-left:var(--wp--preset--spacing--50);
-		border: ridge 1px none;
-	"
->
-	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
-	<div class="wp-block-group alignwide">
-		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-		<div class="wp-block-group">
-			<h2 style="color: #425828;">
-				<b>
-					Contact Us
-				</b>
-			</h2>
-		</div>
-		<!-- /wp:group -->
-
-		<!-- wp:spacer {"height":"var:preset|spacing|40"} -->
-		<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
-		<!-- /wp:spacer -->
-
-		<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|60"}}}} -->
-		<div class="wp-block-columns alignwide">
-			<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
-			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
-				<!-- wp:heading {"textAlign":"left","level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"className":"is-style-asterisk","fontSize":"medium","fontFamily":"body"} -->
-				<h3
-					class="
-						wp-block-heading has-text-align-center
-						has-body-font-family has-large-font-size
-					"
-					style="font-style:normal;font-weight:600"
-				>
-					M&J Boat and RV Repairs
-				</h3>
-				<!-- /wp:heading -->
-				<ul style="line-height:1.75; list-style-type: none; margin-top: 30px">
-					<!-- wp:list-item -->
-					<li>
-						<i class="fas fa-location"></i>	
-						5309 Glen Rose hwy Granbury TX 76048
-					</li>
-					<!-- /wp:list-item -->
-					<br>
-					<!-- wp:list-item -->
-					<li>
-						<i class="fas fa-phone"></i>
-						214-601-0574
-					</li>
-					<!-- /wp:list-item -->
-					<br>
-					<!-- wp:list-item -->
-					<li>
-						<i class="fas fa-phone"></i>
-						682-381-7571
-					</li>
-					<!-- /wp:list-item -->
-					<br>
-					<!-- wp:list-item -->
-					<li>
-						<i class="fas fa-envelope"></i>
-						mjoftexas@gmail.com
-					</li>
-					<!-- /wp:list-item -->
-				</ul>
-			</div>
-			<!-- /wp:column -->
-
-			<!-- wp:column {"width":"50%"} -->
-			<div class="wp-block-column" style="flex-basis:50%">
-				<!-- wp:heading {"textAlign":"left","level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"className":"is-style-asterisk","fontSize":"medium","fontFamily":"body"} -->
-				<h3
-					class="
-						wp-block-heading has-text-align-center
-						has-body-font-family has-large-font-size
-					"
-					style="font-style:normal;font-weight:600"
-				>
-					M&J Tree Services
-				</h3>
-				<!-- /wp:heading -->
-				<ul style="line-height:1.75; list-style-type: none; margin-top: 30px">
-					<!-- wp:list-item -->
-					<li>
-						<i class="fas fa-location"></i>	
-						5309 Glen Rose hwy Granbury TX 76048
-					</li>
-					<!-- /wp:list-item -->
-					<br>
-					<!-- wp:list-item -->
-					<li>
-						<i class="fas fa-phone"></i>
-						214-601-0574
-					</li>
-					<!-- /wp:list-item -->
-					<br>
-					<!-- wp:list-item -->
-					<li>
-						<i class="fas fa-phone"></i>
-						682-381-7571
-					</li>
-					<!-- /wp:list-item -->
-					<br>
-					<!-- wp:list-item -->
-					<li>
-						<i class="fas fa-envelope"></i>
-						mjoftexas@gmail.com
-					</li>
-					<!-- /wp:list-item -->
-				</ul>
-			</div>
-			<!-- /wp:column -->
-		</div>
-		<!-- /wp:columns -->
-	</div>
-	<!-- /wp:group -->
+<div class="section section-1 py-5 container-fluid background-gray">
+    <div
+        class="container "
+        style="border: ridge 1px transparent;"
+    >
+        <h1 class="text-center" style="color: orangered;">
+            <b>SERVICES</b>
+        </h1>
+        <!-- Columna 1 -->
+        <div
+            class="row"
+            style="border: ridge 1px transparent;"
+        >
+            <div class="col-4" style="border: ridge 1px transparent;">
+                <div
+                    class="card"
+                    style="
+                        /*background-color: #18181894;*/
+                        border: ridge 1px transparent;
+                        color: #000000;
+                    "
+                >
+                    <div class="card-body">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4" style="border: ridge 1px transparent;">
+                <img
+                    class="img-zoom"
+                    style="width: 100%;"
+                    src="
+                        <?php echo esc_url( get_template_directory_uri() );
+                        ?>/assets/images/room_images/1.webp" alt="<?php esc_attr_e( '',
+                        'twentytwentyfour' );
+                        ?>
+                    "
+                    alt="image"
+                >
+            </div>
+            <div class="col-4" style="border: ridge 1px transparent;">
+                <img
+                    class="img-zoom"
+                    style="width: 100%;"
+                    src="
+                        <?php echo esc_url( get_template_directory_uri() );
+                        ?>/assets/images/room_images/2.webp" alt="<?php esc_attr_e( '',
+                        'twentytwentyfour' );
+                        ?>
+                    "
+                    alt="image"
+                >
+            </div>
+        </div>
+        <!-- Final Columna 1 -->
+        <br>
+        <!-- Columna 2 -->
+        <div
+            class="row"
+            style="border: ridge 1px transparent;"
+        >
+            <div class="col-4" style="border: ridge 1px transparent;">
+                <img
+                    class="img-zoom"
+                    style="width: 100%;"
+                    src="
+                        <?php echo esc_url( get_template_directory_uri() );
+                        ?>/assets/images/room_images/3.webp" alt="<?php esc_attr_e( '',
+                        'twentytwentyfour' );
+                        ?>
+                    "
+                    alt="image"
+                >
+            </div>
+            <div class="col-4" style="border: ridge 1px transparent;">
+                <img
+                    class="img-zoom"
+                    style="width: 100%;"
+                    src="
+                        <?php echo esc_url( get_template_directory_uri() );
+                        ?>/assets/images/room_images/4.webp" alt="<?php esc_attr_e( '',
+                        'twentytwentyfour' );
+                        ?>
+                    "
+                    alt="image"
+                >
+            </div>
+            <div class="col-4" style="border: ridge 1px transparent;">
+                <img
+                    class="img-zoom"
+                    style="width: 100%;"
+                    src="
+                        <?php echo esc_url( get_template_directory_uri() );
+                        ?>/assets/images/room_images/4.webp" alt="<?php esc_attr_e( '',
+                        'twentytwentyfour' );
+                        ?>
+                    "
+                    alt="image"
+                >
+            </div>
+        </div>
+        <!-- Final Columna 2 -->
+    </div>
 </div>
-<!-- /wp:group -->

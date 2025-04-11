@@ -8,12 +8,6 @@
  */
 ?>
 
-<style>
-    .col-4 {
-        border: ridge 1px transparent;
-    }
-</style>
-
 <div
     class="section section-1 py-5 container-fluid"
     style="border: ridge 1px transparent;"
@@ -53,7 +47,7 @@
                     class="card-title text-center"
                     style="color: #000000;"
                 >
-                    <b>COMPANY NAME</b>
+                    <b style="color: orangered;">COMPANY NAME</b>
                 </h3>
                 <p class="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
