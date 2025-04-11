@@ -13,9 +13,10 @@
         class="container "
         style="border: ridge 1px transparent;"
     >
-        <h1 class="text-center" style="color: orangered;">
+        <h1 class="text-center font-6" style="color: orangered;">
             <b>SERVICES</b>
         </h1>
+        <br>
         <!-- Columna 1 -->
         <div
             class="row"
@@ -30,8 +31,8 @@
                         color: #000000;
                     "
                 >
-                    <div class="card-body">
-                        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                    <div class="card-body font-6">
+                        <h2 class="font-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.

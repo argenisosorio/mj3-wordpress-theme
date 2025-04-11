@@ -39,9 +39,9 @@
                 >
                     <div class="card-body">
                         <h3 class="card-title" style="color: white;">
-                            <b>COMPANY NAME</b>
+                            <b class="font-6">COMPANY NAME</b>
                         </h3>
-                        <p class="card-text">
+                        <p class="card-text font-6">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             <br>
@@ -52,7 +52,7 @@
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </p>
                         <a href="#">
-                            <button class="btn btn-secondary btn-grad mt-3 mb-3">
+                            <button class="btn btn-secondary btn-grad mt-3 mb-3 font-6">
                                 <b>ABOUT</b>
                             </button>
                         </a>
