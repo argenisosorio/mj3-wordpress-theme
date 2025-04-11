@@ -364,24 +364,46 @@ hr {
 .section {
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    transition: opacity 1.0s ease-out, transform 1.0s ease-out;
 }
 
 .cintillo {
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    transition: opacity 1.0s ease-out, transform 1.0s ease-out;
 }
 
 .main-navbar {
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    transition: opacity 1.0s ease-out, transform 1.0s ease-out;
 }
 
 .visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+.section2 {
+    opacity: 0;
+    transform: translateX(-100px); /* Desplazamiento inicial desde la izquierda */
+    transition: opacity 1.3s ease-out, transform 1.3s ease-out;
+}
+
+.visible2 {
+    opacity: 1;
+    transform: translateX(0); /* Posición final */
+}
+
+.section3 {
+    opacity: 0;
+    transform: translateX(100px); /* Desplazamiento inicial desde la derecha */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.visible3 {
+    opacity: 1;
+    transform: translateX(0); /* Posición final */
 }
 
 .carousel {
@@ -443,7 +465,7 @@ hr {
 
 <!-- Cintillo negro -->
 <div
-    class="cintillo"
+    class="section3"
     style="
         width: 100%;
         background-color: #000000;

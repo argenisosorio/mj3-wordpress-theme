@@ -164,7 +164,7 @@
 
 <script>
 	// Script JavaScript para efecto de aparición
-	const sections = document.querySelectorAll('.section');
+	const var_sections = document.querySelectorAll('.section');
 	const cintillo = document.querySelectorAll('.cintillo');
 	const main_navbar = document.querySelectorAll('.main-navbar');
 
@@ -176,7 +176,7 @@
 	});
 	}, { threshold: 0.1 });
 
-	sections.forEach(section => {
+	var_sections.forEach(section => {
 		observer.observe(section);
 	});
 
@@ -186,6 +186,38 @@
 
 	main_navbar.forEach(y => {
 		observer.observe(y);
+	});
+</script>
+
+<script>
+	const var_sections2 = document.querySelectorAll('.section2');
+
+	const observer2 = new IntersectionObserver(entries => {
+		entries.forEach(entry => {
+			if (entry.isIntersecting) {
+				entry.target.classList.add('visible2');
+			}
+		});
+	}, { threshold: 0.1 });
+
+	var_sections2.forEach(z => {
+		observer2.observe(z);
+	});
+</script>
+
+<script>
+	const var_sections3 = document.querySelectorAll('.section3');
+
+	const observer3 = new IntersectionObserver(entries => {
+		entries.forEach(entry => {
+			if (entry.isIntersecting) {
+				entry.target.classList.add('visible3');
+			}
+		});
+	}, { threshold: 0.1 });
+
+	var_sections3.forEach(a => {
+		observer3.observe(a);
 	});
 </script>
 <!-- /wp:group -->

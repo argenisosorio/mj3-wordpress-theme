@@ -8,7 +8,7 @@
  */
 ?>
 
-<div class="section section-1 py-5 container-fluid background-gray">
+<div class="section2 py-5 container-fluid background-gray">
     <div
         class="container "
         style="border: ridge 1px transparent;"
@@ -24,7 +24,7 @@
         >
             <div class="col-4" style="border: ridge 1px transparent;">
                 <div
-                    class="card"
+                    class="card section2"
                     style="
                         /*background-color: #18181894;*/
                         border: ridge 1px transparent;
@@ -43,7 +43,7 @@
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
                 <img
-                    class="img-zoom"
+                    class="img-zoom section3"
                     style="width: 100%;"
                     src="
                         <?php echo esc_url( get_template_directory_uri() );
@@ -56,7 +56,7 @@
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
                 <img
-                    class="img-zoom"
+                    class="img-zoom section2"
                     style="width: 100%;"
                     src="
                         <?php echo esc_url( get_template_directory_uri() );
@@ -77,7 +77,7 @@
         >
             <div class="col-4" style="border: ridge 1px transparent;">
                 <img
-                    class="img-zoom"
+                    class="img-zoom section3"
                     style="width: 100%;"
                     src="
                         <?php echo esc_url( get_template_directory_uri() );
@@ -90,7 +90,7 @@
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
                 <img
-                    class="img-zoom"
+                    class="img-zoom section2"
                     style="width: 100%;"
                     src="
                         <?php echo esc_url( get_template_directory_uri() );
@@ -103,7 +103,7 @@
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
                 <img
-                    class="img-zoom"
+                    class="img-zoom section3"
                     style="width: 100%;"
                     src="
                         <?php echo esc_url( get_template_directory_uri() );
