@@ -99,8 +99,6 @@
     </div>
 </div>
 
-<script src="https://argenisosorio.github.io/inmensidad-gaitera/assets/dist/js/bootstrap.bundle.min.js"></script>
-
 <script>
     // Selecciona la barra de progreso
     const progressBar = document.getElementById('progressBar');

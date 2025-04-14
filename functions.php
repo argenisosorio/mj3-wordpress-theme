@@ -211,6 +211,37 @@ function enqueue_load_fa() {
     wp_enqueue_style( 'load-fa', 'https://pro.fontawesome.com/releases/v5.15.4/css/all.css' );
 }
 
-add_action ('wp_enqueue_scripts',function () {
-	wp_enqueue_style ('bootstrap', 'https://argenisosorio.github.io/inmensidad-gaitera/assets/dist/css/bootstrap.min.css');
-});
+function agregar_bootstrap() {
+    // Registra el estilo
+    wp_register_style(
+        'bootstrap-css', // Identificador único
+        get_template_directory_uri() . '/assets/css/bootstrap.min.css', // Ruta al archivo
+        array(), // Dependencias (ninguna en este caso)
+        '5.2.3' // Versión de Bootstrap (cámbiala según tu versión)
+    );
+
+    // Encola el estilo
+    wp_enqueue_style('bootstrap-css');
+}
+
+add_action('wp_enqueue_scripts', 'agregar_bootstrap');
+
+#add_action ('wp_enqueue_scripts',function () {
+#	wp_enqueue_style ('bootstrap', 'https://argenisosorio.github.io/inmensidad-gaitera/assets/dist/css/bootstrap.min.css');
+#});
+
+function agregar_bootstrap_js() {
+    // Registra el JS (con dependencia de Popper.js incluida en el bundle)
+    wp_register_script(
+        'bootstrap-js', // Handle
+        get_template_directory_uri() . '/assets/js/bootstrap.bundle.min.js', // Ruta
+        array('jquery'), // Dependencias (jQuery viene en WP por defecto)
+        '5.2.3', // Versión
+        true // Cargar en el footer (después del <body>)
+    );
+
+    // Encola el script
+    wp_enqueue_script('bootstrap-js');
+}
+
+add_action('wp_enqueue_scripts', 'agregar_bootstrap_js');
