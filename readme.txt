@@ -98,3 +98,9 @@ la navbar.
 
 4- En /wp-content/themes/mj3/parts/header.html agregar los enlaces a las redes
 sociales del cintillo negro y al logo brand.
+
+5- En wp-content/themes/mj3/parts/header.html quitar el /wordpress de los links
+css, ya que solo se usa en local. Debe quedar:
+
+<link rel="stylesheet" href="/wp-content/themes/mj3/assets/css/fontawesome.css">
+<link rel="stylesheet" href="/wp-content/themes/mj3/assets/font-awesome-6/css/all.css">
