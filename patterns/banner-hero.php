@@ -33,25 +33,31 @@
                 <div
                     class="card card-margin-top"
                     style="
-                        background-color: #18181894; border: none;
+                        background-color: #18181894;
+                        border: none;
+                        border: ridge 1px transparent;
                         color: white;
+                        /*margin-top: 80px;*/
                     "
                 >
                     <div class="card-body">
-                        <h3 class="card-title" style="color: white;">
-                            <b class="font-6">COMPANY NAME</b>
-                        </h3>
+                        <h1 class="card-title" style="color: white; font-size: 50px;">
+                            <b class="font-6">HR EXPERT'S LLC.</b>
+                        </h1>
                         <p class="card-text font-6">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            <br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            <br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            <b style="color: white; font-size: 30px;">General Contractor for Construction & Remodeling</b>
                         </p>
-                        <a href="#">
+                        <p class="card-text font-6" style="color: white; font-size: 18px;">
+                            Leading construction and remodeling company with
+                            over 16 years of experience, specializing in
+                            residential and commercial projects.
+                        </p>
+                        <p class="card-text font-6" style="color: white; font-size: 18px;">
+                            Discover how we can transform your vision into
+                            reality. Contact us today for a free, no-obligation
+                            consultation.
+                        </p>
+                        <a href="#about_us">
                             <button class="btn btn-secondary btn-grad mt-3 mb-3 font-6">
                                 <b>ABOUT</b>
                             </button>

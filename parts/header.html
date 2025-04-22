@@ -8,6 +8,8 @@
 /* Custom Fonts */
 /****************/
 
+/* Red company: #df2528 */
+
 /* section-1 */
 @font-face {
     font-family: "OpenSans-Bold";
@@ -99,7 +101,7 @@
 
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
-    font-size: 3.5rem;
+        font-size: 3.5rem;
     }
 }
 
@@ -149,13 +151,13 @@
 }
 
 .nav-link:hover {
-    color: orangered !important;
-    /*border-bottom: solid 1px orangered;*/
+    color: #df2528 !important;
+    /*border-bottom: solid 1px #df2528;*/
 }
 
 .navbar-toggler {
     color: #FFFFFF !important;
-    background-color: orangered !important;
+    background-color: #df2528 !important;
 }
 
 .navbar-text {
@@ -244,18 +246,18 @@ hr {
 }
 
 .btn-grad {
-    background-image: linear-gradient(to right, orangered, orangered);
+    background-image: linear-gradient(to right, #df2528, #df2528);
     padding: 10px 25px;
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
     color: #FFFFFF;
     border-radius: 0px;
-    border: ridge 1px orangered;
+    border: ridge 1px #df2528;
 }
 
 .btn-grad:hover {
-    background-image: linear-gradient(to right, #000000, orangered);
+    background-image: linear-gradient(to right, #000000, #df2528);
     background-position: right center; /* change the direction of the change here */
     color: #FFFFFF;
     text-decoration: none;
@@ -289,7 +291,8 @@ hr {
         -webkit-text-fill-color: transparent;
     }
     .card-margin-top {
-        margin-top: 120px;
+        margin-top: 80px !important;
+        /*border: ridge 1px red !important;*/
     }
 }
 
@@ -358,7 +361,11 @@ hr {
         margin: 0 auto;
     }
     .card-margin-top {
-        margin-top: 60px;
+        margin-top: 10px !important;
+    }
+    .email-text {
+        /*border: ridge 1px red;*/
+        font-size: 14px;
     }
 }
 
@@ -432,21 +439,21 @@ hr {
     top: 0;
     left: 0;
     height: 5px; /* Altura de la barra */
-    background-color: orangered; /* Color de la barra */
+    background-color: #df2528; /* Color de la barra */
     width: 0%; /* Ancho inicial */
     z-index: 1000; /* Aparece encima de todo */
 }
 
 .text-decoration-none:hover {
-    color: orangered !important; /* Cambia el color del texto */
+    color: #df2528 !important; /* Cambia el color del texto */
 }
 
 .text-decoration-none:hover i {
-    color: orangered !important; /* Cambia el color del ícono */
+    color: #df2528 !important; /* Cambia el color del ícono */
 }
 
 .text-decoration-none:hover span {
-    color: orangered !important; /* Cambia el color del texto dentro del span */
+    color: #df2528 !important; /* Cambia el color del texto dentro del span */
 }
 
 /* Estilos del video de fondo */
@@ -478,7 +485,7 @@ hr {
         <div class="row" style="border: ridge 1px transparent;">
             <div class="col-4" style="border: ridge 1px transparent;">
                 <a
-                    class="text-decoration-none"
+                    class="email-text text-decoration-none"
                     href="mailto:company@mail.com"
                 >
                     <i class="fas fa-envelope" style="color: #FFFFFF;"></i>
@@ -486,7 +493,7 @@ hr {
                         class="font-6"
                         style="color: #FFFFFF;"
                     >
-                        <b>company@mail.com</b>
+                        <b>quotes@hrexpertsdfw.com</b>
                     </span>
                 </a>
             </div>
@@ -568,7 +575,7 @@ hr {
                     <li class="nav-item">
                         <a
                             class="nav-link"
-                            href="http://127.0.0.1/wordpress/index.php/about/"
+                            href="#about_us"
                         >
                             ABOUT
                         </a>
