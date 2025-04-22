@@ -8,6 +8,7 @@
  */
 ?>
 
+<a name="services"></a>
 <div class="section2 py-5 container-fluid background-gray">
     <div
         class="container "
@@ -385,5 +386,39 @@
             </div>
         </div>
         <!-- Final Fila 5 -->
+    </div>
+</div>
+
+<a name="contact"></a>
+<div class="section2 py-5 container-fluid background-red">
+    <div
+        class="container text-center"
+        style="border: ridge 1px transparent;"
+    >
+        <h1 class="font-6" style="color: #FFFFFF;">
+            <b>Contact us today!</b>
+        </h1>
+        <br>
+        <p class="text-center" style="color: #000000; font-size: 25px">
+            Ready to transform your space? HR Expert's LLC is just a phone call away.
+        </p>
+        <hr>
+        <p class="fs-5" style="color: #FFFFFF;">
+            <i class="fa-solid fa-phone" style="color: #FFFFFF;"></i>
+            214-251-0758
+        </p>
+        <hr>
+        <p class="fs-5" style="color: #FFFFFF;">
+            <i class="fas fa-envelope" style="color: #FFFFFF;"></i>
+            quotes@hrexpertsdfw.com
+        </p>
+        <hr>
+        <p class="fs-5" style="color: #FFFFFF;">
+            <i class="fa-solid fa-location-dot" style="color: #FFFFFF;"></i>
+            Service area
+        </p>
+        <p class="fs-5" style="color: #FFFFFF;">
+            Dallas, Texas. | Fort Worth, Texas.
+        </p>
     </div>
 </div>

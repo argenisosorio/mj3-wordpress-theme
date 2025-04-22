@@ -8,6 +8,7 @@
  */
 ?>
 
+<a name="contact"></a>
 <div class="section2 py-5 container-fluid">
     <div
         class="container "
@@ -26,75 +27,11 @@
                 alt="image"
             >
         </div>
-        <br>
-        <!-- Row -->
-        <div
-            class="row"
-            style="border: ridge 1px transparent;"
-        >
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div
-                    class="card section2"
-                    style="
-                        /*background-color: #18181894;*/
-                        border: ridge 1px transparent;
-                        color: #000000;
-                    "
-                >
-                    <div class="card-body font-6">
-                        <h2 class="font-6">Services</h2>
-                        <ul style="list-style-type: none;">
-                            <li>Lorem ipsum dolor sit amet</li>
-                            <li>Lorem ipsum dolor sit amet</li>
-                            <li>Lorem ipsum dolor sit amet</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div
-                    class="card section2"
-                    style="
-                        /*background-color: #18181894;*/
-                        border: ridge 1px transparent;
-                        color: #000000;
-                    "
-                >
-                    <div class="card-body font-6">
-                        <h2 class="font-6">Contact.</h2>
-                        <ul style="list-style-type: none;">
-                            <li>Lorem ipsum dolor sit amet</li>
-                            <li>Lorem ipsum dolor sit amet</li>
-                            <li>Lorem ipsum dolor sit amet</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div
-                    class="card section2"
-                    style="
-                        /*background-color: #18181894;*/
-                        border: ridge 1px transparent;
-                        color: #000000;
-                    "
-                >
-                    <div class="card-body font-6">
-                        <h2 class="font-6">Other</h2>
-                        <ul style="list-style-type: none;">
-                            <li>Lorem ipsum dolor sit amet</li>
-                            <li>Lorem ipsum dolor sit amet</li>
-                            <li>Lorem ipsum dolor sit amet</li>
-                        </ul>
-                    </div>
-                    </div>
-            </div>
-        </div>
         <hr>
         <br>
         <!-- Final row -->
-        <div class="text-center" style="color: orangered">
-            Copyright © 2025 | Company Name - All rights reserved.
+        <div class="text-center" style="color: #df2528">
+            Copyright © 2025 | HR Expert’s LLC - All rights reserved.
         </div>
     </div>
 </div>
