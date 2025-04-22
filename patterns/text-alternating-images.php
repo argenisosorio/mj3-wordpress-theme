@@ -23,7 +23,7 @@
             style="border: ridge 1px transparent;"
         >
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services">
+                <div class="card text-white card-services img-zoom">
                     <img
                         class="section3 img-services"
                         style="width: 100%; height: 100%;"
@@ -36,30 +36,38 @@
                         alt="image"
                     >
                     <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">Roofing Construction and Repair</h5>
+                        <h5 class="card-title text-white">
+                            <i class="fa fa-genderless fa-lg ollapsed"></i>
+                            ROOFING CONSTRUCTION AND REPAIR
+                        </h5>
                         <p class="card-text">
+                            <b>
                             Installation, maintenance, and repair of all types
                             of roofs (tiles, sheet metal, flat) with
                             high-strength materials and guaranteed watertightness.
+                            </b>
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services">
+                <div class="card text-white card-services img-zoom">
                     <img
                         class="section3 img-services"
                         style="width: 100%; height: 100%;"
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/1.webp" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/2.webp" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
                         alt="image"
                     >
                     <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">Flooring Construction and Repair</h5>
+                        <h5 class="card-title text-white">
+                            <i class="fa fa-genderless fa-lg ollapsed"></i>
+                            FLOORING CONSTRUCTION AND REPAIR
+                        </h5>
                         <p class="card-text">
                             Professional installation of wood, ceramic,
                             porcelain, laminate, and polished concrete flooring
@@ -69,20 +77,23 @@
                 </div>
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services">
+                <div class="card text-white card-services img-zoom">
                     <img
                         class="section3 img-services"
                         style="width: 100%; height: 100%;"
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/1.webp" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/3.webp" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
                         alt="image"
                     >
                     <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">Kitchens and Bathrooms</h5>
+                        <h5 class="card-title text-white">
+                            <i class="fa fa-genderless fa-lg ollapsed"></i>
+                            KITCHENS AND BATHROOMS
+                        </h5>
                         <p class="card-text">
                             Comprehensive design and remodeling with premium
                             materials, including granite, custom finishes, and
@@ -100,20 +111,23 @@
             style="border: ridge 1px transparent;"
         >
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services">
+                <div class="card text-white card-services img-zoom">
                     <img
                         class="section3 img-services"
                         style="width: 100%; height: 100%;"
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/1.webp" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/4.webp" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
                         alt="image"
                     >
                     <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">Fencing</h5>
+                        <h5 class="card-title text-white">
+                            <i class="fa fa-genderless fa-lg ollapsed"></i>
+                            FENCING
+                        </h5>
                         <p class="card-text">
                             Installation and repair of wood, metal, and vinyl
                             fences for security and privacy.
@@ -122,20 +136,23 @@
                 </div>
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services">
+                <div class="card text-white card-services img-zoom">
                     <img
                         class="section3 img-services"
                         style="width: 100%; height: 100%;"
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/1.webp" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/5.webp" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
                         alt="image"
                     >
                     <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">Concrete</h5>
+                        <h5 class="card-title text-white">
+                            <i class="fa fa-genderless fa-lg ollapsed"></i>
+                            CONCRETE
+                        </h5>
                         <p class="card-text">
                             Construction of floors, sidewalks, patios, and
                             concrete structures using durable techniques.
@@ -144,20 +161,23 @@
                 </div>
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services">
+                <div class="card text-white card-services img-zoom">
                     <img
                         class="section3 img-services"
                         style="width: 100%; height: 100%;"
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/1.webp" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/6.webp" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
                         alt="image"
                     >
                     <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">Extensions</h5>
+                        <h5 class="card-title text-white">
+                            <i class="fa fa-genderless fa-lg ollapsed"></i>
+                            EXTENSIONS
+                        </h5>
                         <p class="card-text">
                             We add living spaces to your property, from bedrooms
                             to second floors.
@@ -174,20 +194,23 @@
             style="border: ridge 1px transparent;"
         >
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services">
+                <div class="card text-white card-services img-zoom">
                     <img
                         class="section3 img-services"
                         style="width: 100%; height: 100%;"
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/1.webp" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/7.webp" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
                         alt="image"
                     >
                     <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">Sheetrock (Drywall)</h5>
+                        <h5 class="card-title text-white">
+                            <i class="fa fa-genderless fa-lg ollapsed"></i>
+                            SHEETROCK (DRYWALL)
+                        </h5>
                         <p class="card-text">
                             Installation and repair of walls and ceilings with
                             durable materials and impeccable finishes.
@@ -196,20 +219,23 @@
                 </div>
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services">
+                <div class="card text-white card-services img-zoom">
                     <img
                         class="section3 img-services"
                         style="width: 100%; height: 100%;"
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/1.webp" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/8.webp" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
                         alt="image"
                     >
                     <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">Electrical Services</h5>
+                        <h5 class="card-title text-white">
+                            <i class="fa fa-genderless fa-lg ollapsed"></i>
+                            ELECTRICAL SERVICES
+                        </h5>
                         <p class="card-text">
                             Wiring, lighting, panels, and safe and efficient energy solutions.
                         </p>
@@ -217,20 +243,23 @@
                 </div>
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services">
+                <div class="card text-white card-services img-zoom">
                     <img
                         class="section3 img-services"
                         style="width: 100%; height: 100%;"
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/1.webp" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/9.webp" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
                         alt="image"
                     >
                     <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">Plumbing Services</h5>
+                        <h5 class="card-title text-white">
+                            <i class="fa fa-genderless fa-lg ollapsed"></i>
+                            PLUMBING SERVICES
+                        </h5>
                         <p class="card-text">
                             Comprehensive installation, maintenance, and repair
                             of drinking water, drainage, gas, and sanitary systems.
@@ -247,20 +276,23 @@
             style="border: ridge 1px transparent;"
         >
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services">
+                <div class="card text-white card-services img-zoom">
                     <img
                         class="section3 img-services"
                         style="width: 100%; height: 100%;"
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/1.webp" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/10.webp" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
                         alt="image"
                     >
                     <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">Granite</h5>
+                        <h5 class="card-title text-white">
+                            <i class="fa fa-genderless fa-lg ollapsed"></i>
+                            GRANITE
+                        </h5>
                         <p class="card-text">
                             Granite countertops and surfaces for kitchens,
                             bathrooms, and common areas.
@@ -269,20 +301,23 @@
                 </div>
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services">
+                <div class="card text-white card-services img-zoom">
                     <img
                         class="section3 img-services"
                         style="width: 100%; height: 100%;"
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/1.webp" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/11.webp" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
                         alt="image"
                     >
                     <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">Tree Services</h5>
+                        <h5 class="card-title text-white">
+                            <i class="fa fa-genderless fa-lg ollapsed"></i>
+                            TREE SERVICES
+                        </h5>
                         <p class="card-text">
                             Professional pruning, controlled felling, and
                             maintenance of landscaping with specialized equipment.
@@ -291,20 +326,23 @@
                 </div>
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services">
+                <div class="card text-white card-services img-zoom">
                     <img
                         class="section3 img-services"
                         style="width: 100%; height: 100%;"
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/1.webp" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/12.webp" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
                         alt="image"
                     >
                     <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">General Painting</h5>
+                        <h5 class="card-title text-white">
+                            <i class="fa fa-genderless fa-lg ollapsed"></i>
+                            GENERAL PAINTING
+                        </h5>
                         <p class="card-text">
                             Interior/exterior painting with professional
                             techniques and high-quality materials.
@@ -321,20 +359,23 @@
             style="border: ridge 1px transparent;"
         >
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services">
+                <div class="card text-white card-services img-zoom">
                     <img
                         class="section3 img-services"
                         style="width: 100%; height: 100%;"
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/1.webp" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/13.webp" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
                         alt="image"
                     >
                     <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">A/C and Climate Control</h5>
+                        <h5 class="card-title text-white">
+                            <i class="fa fa-genderless fa-lg ollapsed"></i>
+                            A/C AND CLIMATE CONTROL
+                        </h5>
                         <p class="card-text">
                             Installation and repair of air conditioning,
                             ventilation, and heating systems.
