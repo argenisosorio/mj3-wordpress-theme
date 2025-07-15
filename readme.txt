@@ -91,16 +91,16 @@ Pasos a seguir:
 General Settings.
 
 2- Subir el favicon a la galería y poner la url completa en
-/wp-content/themes/mj3/parts/header.html en image src favicon.
+/wp-content/themes/mj4/parts/header.html en image src favicon.
 
-3- En /wp-content/themes/mj3/parts/header.html poner los enlaces y títulos en
+3- En /wp-content/themes/mj4/parts/header.html poner los enlaces y títulos en
 la navbar.
 
-4- En /wp-content/themes/mj3/parts/header.html agregar los enlaces a las redes
+4- En /wp-content/themes/mj4/parts/header.html agregar los enlaces a las redes
 sociales del cintillo negro y al logo brand.
 
-5- En wp-content/themes/mj3/parts/header.html quitar el /wordpress de los links
+5- En wp-content/themes/mj4/parts/header.html quitar el /wordpress de los links
 css, ya que solo se usa en local. Debe quedar:
 
-<link rel="stylesheet" href="/wp-content/themes/mj3/assets/css/fontawesome.css">
-<link rel="stylesheet" href="/wp-content/themes/mj3/assets/font-awesome-6/css/all.css">
+<link rel="stylesheet" href="/wp-content/themes/mj4/assets/css/fontawesome.css">
+<link rel="stylesheet" href="/wp-content/themes/mj4/assets/font-awesome-6/css/all.css">
