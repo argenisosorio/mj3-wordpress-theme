@@ -48,55 +48,45 @@
                     class="card-title text-center"
                     style="color: #000000;"
                 >
-                    <b class="font-6" style="color: #df2528;">HR EXPERT'S LLC.</b>
+                    <b
+                        class="font-6"
+                        style="
+                            color: #208b3e;
+                            font-size: 40px;
+                        "
+                    >
+                        EDDIE'S SPRINKLER
+                    </b>
                 </h3>
-                <p class="card-text">
-                    At HR Expert's LLC, we pride ourselves on being leaders in
-                    the construction and remodeling industry with a solid track
-                    record of over 16 years transforming spaces and exceeding
-                    expectations. Since our beginnings in 2009, we have grown to
-                    become a benchmark of quality and innovation in both
-                    residential and commercial projects throughout the region.
+                <br>
+                <p class="card-text" style="font-size: 20px;">
+                    At Eddie's Sprinkler, we are dedicated to providing
+                    comprehensive solutions for irrigation systems, ensuring
+                    that your garden or green space always looks impeccable. With
+                    years of experience in the sector, we have become a
+                    benchmark for reliability and efficiency in sprinkler
+                    installation, repair, and maintenance.
                 </p>
-                <p class="card-text">
-                    <b>Our uniqueness lies in:</b>
-                    <ul>
-                        <li>A highly specialized team of architects, engineers, and construction managers with technical certifications.</li>
-                        <li>Proven methodologies that guarantee precision in every phase of the project.</li>
-                        <li>Unwavering commitment to established deadlines without sacrificing quality.</li>
-                        <li>Personalized attention, tailoring each solution to the client's specific needs.</li>
+                <p class="card-text" style="font-size: 20px;">
+                    <b style="font-size: 20px;">Our differential:</b>
+                    <ul style="font-size: 20px;">
+                        <li><b>Specialized team</b> with extensive technical knowledge and certifications.</li>
+                        <li><b>Personalized attention</b>, tailoring each solution to your specific needs.</li>
+                        <li><b>Cutting edge technology</b> in smart irrigation systems.</li>
+                        <li><b>Transparent quotes</b> and competitive prices.</li>
+                        <li><b>Thorough site inspection</b> before scheduling any work.</li>
                     </ul>
                 </p>
-                <p class="card-text">
-                    <b>Areas of Expertise:</b>
-                    <ul>
-                        <li>Comprehensive construction from foundations to final finishes.</li>
-                        <li>Complete renovations that revitalize outdated spaces.</li>
-                        <li>Turnkey projects for clients seeking a comprehensive solution.</li>
-                    </ul>
-                </p>
-                <p class="card-text">
-                    <b>With dozens of successful projects completed, we have developed a work model that combines:</b>
-                    <ul>
-                        <li>Transparency in budgets and processes</li>
-                        <li>Cutting-edge technology in design and execution</li>
-                        <li>Long-lasting relationships with clients and suppliers</li>
-                    </ul>
-                </p>
+                <br>
                 <p class="text-center">
-                    <i style="font-size: 20px; color: #df2528">
+                    <i style="font-size: 30px; color: #208b3e">
                         <b>
-                            "We approach each project with the same dedication as
-                            if it were our own home. Customer satisfaction is
-                            not just our goal, it's our standard."
+                            "We guarantee fast, efficient, and high-quality
+                            service so that your irrigation system works
+                            perfectly at all times."
                         </b>
                     </i>
                 </p>
-                <!--a href="#">
-                    <button class="btn btn-secondary btn-grad mt-3 mb-3 font-6">
-                        <b>ABOUT</b>
-                    </button>
-                </a-->
             </div>
         </div>
         </div>
