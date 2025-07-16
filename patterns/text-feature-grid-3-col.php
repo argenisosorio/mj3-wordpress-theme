@@ -27,7 +27,7 @@
                 style="width: 100%;"
                 src="
                     <?php echo esc_url( get_template_directory_uri() );
-                    ?>/assets/images/image-1.webp" alt="<?php esc_attr_e( '',
+                    ?>/assets/images/imagen-convertida.png" alt="<?php esc_attr_e( '',
                     'twentytwentyfour' );
                     ?>
                 "
@@ -52,14 +52,14 @@
                         class="font-6"
                         style="
                             color: #208b3e;
-                            font-size: 40px;
+                            font-size: 35px;
                         "
                     >
                         EDDIE'S SPRINKLER
                     </b>
                 </h3>
                 <br>
-                <p class="card-text" style="font-size: 20px;">
+                <p class="card-text" style="font-size: 18px;">
                     At Eddie's Sprinkler, we are dedicated to providing
                     comprehensive solutions for irrigation systems, ensuring
                     that your garden or green space always looks impeccable. With
@@ -67,9 +67,9 @@
                     benchmark for reliability and efficiency in sprinkler
                     installation, repair, and maintenance.
                 </p>
-                <p class="card-text" style="font-size: 20px;">
-                    <b style="font-size: 20px;">Our differential:</b>
-                    <ul style="font-size: 20px;">
+                <p class="card-text" style="font-size: 18px;">
+                    <b style="font-size: 18px;">Our differential:</b>
+                    <ul style="font-size: 18px;">
                         <li><b>Specialized team</b> with extensive technical knowledge and certifications.</li>
                         <li><b>Personalized attention</b>, tailoring each solution to your specific needs.</li>
                         <li><b>Cutting edge technology</b> in smart irrigation systems.</li>
@@ -78,8 +78,10 @@
                     </ul>
                 </p>
                 <br>
+                <hr style="border: 1px solid #208b3e;">
+                <br>
                 <p class="text-center">
-                    <i style="font-size: 30px; color: #208b3e">
+                    <i style="font-size: 25px; color: #208b3e">
                         <b>
                             "We guarantee fast, efficient, and high-quality
                             service so that your irrigation system works
