@@ -59,7 +59,7 @@
                     </b>
                 </h3>
                 <br>
-                <p class="card-text" style="font-size: 18px;">
+                <p class="card-text" style="font-size: 20px;">
                     At Eddie's Sprinkler, we are dedicated to providing
                     comprehensive solutions for irrigation systems, ensuring
                     that your garden or green space always looks impeccable. With
@@ -67,15 +67,26 @@
                     benchmark for reliability and efficiency in sprinkler
                     installation, repair, and maintenance.
                 </p>
-                <p class="card-text" style="font-size: 18px;">
-                    <b style="font-size: 18px;">Our differential:</b>
-                    <ul style="font-size: 18px;">
-                        <li><b>Specialized team</b> with extensive technical knowledge and certifications.</li>
-                        <li><b>Personalized attention</b>, tailoring each solution to your specific needs.</li>
-                        <li><b>Cutting edge technology</b> in smart irrigation systems.</li>
-                        <li><b>Transparent quotes</b> and competitive prices.</li>
-                        <li><b>Thorough site inspection</b> before scheduling any work.</li>
-                    </ul>
+                <p class="card-text" style="font-size: 20px;">
+                    <b style="font-size: 20px;">Our differential:</b>
+                    <br>
+                    <br>
+                    <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Specialized team</b> with extensive technical knowledge and certifications.
+                    <br>
+                    <br>
+                    <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Personalized attention</b>, tailoring each solution to your specific needs.
+                    <br>
+                    <br>
+                    <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Cutting edge technology</b> in smart irrigation systems.
+                    <br>
+                    <br>
+                    <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Transparent quotes</b> and competitive prices.
+                    <br>
+                    <br>
+                    <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Thorough site inspection</b> before scheduling any work.
+                    <br>
+                    <br>
+                    <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Specialized team</b> with extensive technical knowledge and certifications.
                 </p>
                 <br>
                 <hr style="border: 1px solid #208b3e;">
