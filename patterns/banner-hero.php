@@ -40,7 +40,7 @@
                                     <b class="font-6">EDDIE'S SPRINKLER</b>
                                 </h1>
                                 <p class="card-text font-6">
-                                    <b style="color: white; font-size: 35px;">The best solution</b>
+                                    <b style="color: white; font-size: 35px;">The Best Solution</b>
                                 </p>
                                 <p class="card-text font-6" style="color: white; font-size: 30px;">
                                     Sprinkler installation, repair, and maintenance
@@ -62,7 +62,7 @@
                                         max-width: 500px;
                                         width: 100%;
                                         height: auto;
-                                        margin-top: 80px;
+                                        margin-top: 50px;
                                         border-radius: 20px;
                                     "
                                 >
