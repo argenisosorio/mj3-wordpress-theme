@@ -9,7 +9,7 @@
 ?>
 
 <a name="contact"></a>
-<div class="section2 py-5 container-fluid">
+<div class="section2 py-2 container-fluid" style="margin-bottom: 30px;">
     <div
         class="container "
         style="border: ridge 1px transparent;"
@@ -30,10 +30,18 @@
         <hr>
         <br>
         <!-- Final row -->
-        <div class="text-center" style="color: #df2528">
-            Copyright © 2025 | HR Expert’s LLC - All rights reserved.
+        <div class="text-center" style="color: #208b3e">
+            Copyright © | Eddie’s Sprinkler - All rights reserved.
         </div>
     </div>
+    <style>
+        @media (max-width: 600px) {
+            .img-zoom.section3 {
+                width: 200px !important;
+                max-width: 100%;
+            }
+        }
+    </style>
 </div>
 
 <script>

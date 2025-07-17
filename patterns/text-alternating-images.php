@@ -14,7 +14,7 @@
         class="container "
         style="border: ridge 1px transparent;"
     >
-        <h1 class="text-center font-6" style="color: #df2528;">
+        <h1 class="text-center font-6" style="color: #208b3e;">
             <b>SERVICES</b>
         </h1>
         <br>
@@ -24,81 +24,65 @@
             style="border: ridge 1px transparent;"
         >
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services img-zoom">
+                <div class="card img-zoom">
                     <img
-                        class="section3 img-services"
-                        style="width: 100%; height: 100%;"
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/1.webp" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/png/1.png" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
+                        class="card-img-top"
                         alt="image"
                     >
-                    <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">
-                            <i class="fa fa-genderless fa-lg ollapsed"></i>
-                            ROOFING CONSTRUCTION AND REPAIR
-                        </h5>
+                    <div class="card-body font-6">
+                        <h5 class="card-title font-8" style="color: #208b3e;">Rain Sensor</h5>
                         <p class="card-text">
-                            <b>
-                            Installation, maintenance, and repair of all types
-                            of roofs (tiles, sheet metal, flat) with
-                            high-strength materials and guaranteed watertightness.
-                            </b>
+                            Installation and configuration of sensors that
+                            adjust irrigation based on weather conditions,
+                            avoiding waste.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services img-zoom">
+                <div class="card img-zoom">
                     <img
-                        class="section3 img-services"
-                        style="width: 100%; height: 100%;"
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/2.webp" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/png/2.png" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
+                        class="card-img-top"
                         alt="image"
                     >
-                    <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">
-                            <i class="fa fa-genderless fa-lg ollapsed"></i>
-                            FLOORING CONSTRUCTION AND REPAIR
-                        </h5>
+                    <div class="card-body font-6">
+                        <h5 class="card-title font-8" style="color: #208b3e;">WiFi Controller</h5>
                         <p class="card-text">
-                            Professional installation of wood, ceramic,
-                            porcelain, laminate, and polished concrete flooring
-                            for interiors and exteriors.
+                            Remote control systems to manage your irrigation
+                            from any internet-connected device.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services img-zoom">
+                <div class="card img-zoom">
                     <img
-                        class="section3 img-services"
-                        style="width: 100%; height: 100%;"
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/3.webp" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/png/3.png" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
+                        class="card-img-top"
                         alt="image"
                     >
-                    <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">
-                            <i class="fa fa-genderless fa-lg ollapsed"></i>
-                            KITCHENS AND BATHROOMS
-                        </h5>
+                    <div class="card-body font-6">
+                        <h5 class="card-title font-8" style="color: #208b3e;">Smart Controller</h5>
                         <p class="card-text">
-                            Comprehensive design and remodeling with premium
-                            materials, including granite, custom finishes, and
-                            space optimization.
+                            Advanced technology that optimizes water use based
+                            on your garden's needs.
                         </p>
                     </div>
                 </div>
@@ -112,280 +96,102 @@
             style="border: ridge 1px transparent;"
         >
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services img-zoom">
+                <div class="card img-zoom">
                     <img
-                        class="section3 img-services"
-                        style="width: 100%; height: 100%;"
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/4.webp" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/png/4.png" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
+                        class="card-img-top"
                         alt="image"
                     >
-                    <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">
-                            <i class="fa fa-genderless fa-lg ollapsed"></i>
-                            FENCING
-                        </h5>
+                    <div class="card-body font-6">
+                        <h5 class="card-title font-8" style="color: #208b3e;">Installation Review</h5>
                         <p class="card-text">
-                            Installation and repair of wood, metal, and vinyl
-                            fences for security and privacy.
+                            Professional evaluation to detect faults and improve
+                            the efficiency of your current system.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services img-zoom">
+                <div class="card img-zoom">
                     <img
-                        class="section3 img-services"
-                        style="width: 100%; height: 100%;"
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/5.webp" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/png/5.png" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
+                        class="card-img-top"
                         alt="image"
                     >
-                    <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">
-                            <i class="fa fa-genderless fa-lg ollapsed"></i>
-                            CONCRETE
-                        </h5>
+                    <div class="card-body font-6">
+                        <h5 class="card-title font-8" style="color: #208b3e;">New Installation</h5>
                         <p class="card-text">
-                            Construction of floors, sidewalks, patios, and
-                            concrete structures using durable techniques.
+                            Design and implementation of customized irrigation
+                            systems tailored to your green spaces.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services img-zoom">
+                <div class="card img-zoom">
                     <img
-                        class="section3 img-services"
-                        style="width: 100%; height: 100%;"
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/6.webp" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/png/6.png" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
+                        class="card-img-top"
                         alt="image"
                     >
-                    <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">
-                            <i class="fa fa-genderless fa-lg ollapsed"></i>
-                            EXTENSIONS
-                        </h5>
+                    <div class="card-body font-6">
+                        <h5 class="card-title font-8" style="color: #208b3e;">Sprinkler Repair and Maintenance</h5>
                         <p class="card-text">
-                            We add living spaces to your property, from bedrooms
-                            to second floors.
+                            Fast and long-lasting solutions for any sprinkler
+                            problem, including preventative maintenance.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Final Fila 2 -->
+    </div>
+</div>
+
+<a name="why_choose_us"></a>
+<div class="section section-1 py-5 container-fluid">
+    <div
+        class="container "
+        style="border: ridge 1px transparent;"
+    >
+        <h1 class="text-center font-6" style="color: #208b3e;">
+            <b>WHY CHOOSE US?</b>
+        </h1>
         <br>
-        <!-- Fila 3 -->
-        <div
-            class="row"
-            style="border: ridge 1px transparent;"
-        >
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services img-zoom">
-                    <img
-                        class="section3 img-services"
-                        style="width: 100%; height: 100%;"
-                        src="
-                            <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/7.webp" alt="<?php esc_attr_e( '',
-                            'twentytwentyfour' );
-                            ?>
-                        "
-                        alt="image"
-                    >
-                    <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">
-                            <i class="fa fa-genderless fa-lg ollapsed"></i>
-                            SHEETROCK (DRYWALL)
-                        </h5>
-                        <p class="card-text">
-                            Installation and repair of walls and ceilings with
-                            durable materials and impeccable finishes.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services img-zoom">
-                    <img
-                        class="section3 img-services"
-                        style="width: 100%; height: 100%;"
-                        src="
-                            <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/8.webp" alt="<?php esc_attr_e( '',
-                            'twentytwentyfour' );
-                            ?>
-                        "
-                        alt="image"
-                    >
-                    <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">
-                            <i class="fa fa-genderless fa-lg ollapsed"></i>
-                            ELECTRICAL SERVICES
-                        </h5>
-                        <p class="card-text">
-                            Wiring, lighting, panels, and safe and efficient energy solutions.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services img-zoom">
-                    <img
-                        class="section3 img-services"
-                        style="width: 100%; height: 100%;"
-                        src="
-                            <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/9.webp" alt="<?php esc_attr_e( '',
-                            'twentytwentyfour' );
-                            ?>
-                        "
-                        alt="image"
-                    >
-                    <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">
-                            <i class="fa fa-genderless fa-lg ollapsed"></i>
-                            PLUMBING SERVICES
-                        </h5>
-                        <p class="card-text">
-                            Comprehensive installation, maintenance, and repair
-                            of drinking water, drainage, gas, and sanitary systems.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Final Fila 3 -->
+        <h3 class="text-center font-6">
+            <i class="fa fa-check-circle fa-lg ollapsed" style="color: #208b3e;"></i>
+            Certified professionals with years of experience.
+        </h3>
         <br>
-        <!-- Fila 4 -->
-        <div
-            class="row"
-            style="border: ridge 1px transparent;"
-        >
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services img-zoom">
-                    <img
-                        class="section3 img-services"
-                        style="width: 100%; height: 100%;"
-                        src="
-                            <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/10.webp" alt="<?php esc_attr_e( '',
-                            'twentytwentyfour' );
-                            ?>
-                        "
-                        alt="image"
-                    >
-                    <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">
-                            <i class="fa fa-genderless fa-lg ollapsed"></i>
-                            GRANITE
-                        </h5>
-                        <p class="card-text">
-                            Granite countertops and surfaces for kitchens,
-                            bathrooms, and common areas.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services img-zoom">
-                    <img
-                        class="section3 img-services"
-                        style="width: 100%; height: 100%;"
-                        src="
-                            <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/11.webp" alt="<?php esc_attr_e( '',
-                            'twentytwentyfour' );
-                            ?>
-                        "
-                        alt="image"
-                    >
-                    <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">
-                            <i class="fa fa-genderless fa-lg ollapsed"></i>
-                            TREE SERVICES
-                        </h5>
-                        <p class="card-text">
-                            Professional pruning, controlled felling, and
-                            maintenance of landscaping with specialized equipment.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services img-zoom">
-                    <img
-                        class="section3 img-services"
-                        style="width: 100%; height: 100%;"
-                        src="
-                            <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/12.webp" alt="<?php esc_attr_e( '',
-                            'twentytwentyfour' );
-                            ?>
-                        "
-                        alt="image"
-                    >
-                    <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">
-                            <i class="fa fa-genderless fa-lg ollapsed"></i>
-                            GENERAL PAINTING
-                        </h5>
-                        <p class="card-text">
-                            Interior/exterior painting with professional
-                            techniques and high-quality materials.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Final Fila 4 -->
+        <h3 class="text-center font-6">
+            <i class="fa fa-check-circle fa-lg ollapsed" style="color: #208b3e;"></i>
+            Fast response and efficient service.
+        </h3>
         <br>
-        <!-- Fila 5 -->
-        <div
-            class="row"
-            style="border: ridge 1px transparent;"
-        >
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card text-white card-services img-zoom">
-                    <img
-                        class="section3 img-services"
-                        style="width: 100%; height: 100%;"
-                        src="
-                            <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/13.webp" alt="<?php esc_attr_e( '',
-                            'twentytwentyfour' );
-                            ?>
-                        "
-                        alt="image"
-                    >
-                    <div class="card-img-overlay font-6">
-                        <h5 class="card-title text-white">
-                            <i class="fa fa-genderless fa-lg ollapsed"></i>
-                            A/C AND CLIMATE CONTROL
-                        </h5>
-                        <p class="card-text">
-                            Installation and repair of air conditioning,
-                            ventilation, and heating systems.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Final Fila 5 -->
+        <h3 class="text-center font-6">
+            <i class="fa fa-check-circle fa-lg ollapsed" style="color: #208b3e;"></i>
+            Certified professionals with years of experience.
+        </h3>
+        <br>
+        <h3 class="text-center font-6">
+            <i class="fa fa-check-circle fa-lg ollapsed" style="color: #208b3e;"></i>
+            Guidance and advice to answer any questions you may have.
+        </h3>
     </div>
 </div>
 
@@ -395,30 +201,30 @@
         class="container text-center"
         style="border: ridge 1px transparent;"
     >
-        <h1 class="font-6" style="color: #FFFFFF;">
+        <h1 class="font-6" style="color: #FFFFFF; font-size: 50px;">
             <b>Contact us today!</b>
         </h1>
         <br>
-        <p class="text-center" style="color: #000000; font-size: 25px">
-            Ready to transform your space? HR Expert's LLC is just a phone call away.
+        <p class="text-center" style="color: #FFFFFF; font-size: 25px;">
+            Ready to optimize your irrigation system? Eddie's Sprinkler is just a phone call away.
         </p>
-        <hr>
+        <hr style="color: #FFFFFF;">
         <p class="fs-5" style="color: #FFFFFF;">
             <i class="fa-solid fa-phone" style="color: #FFFFFF;"></i>
-            214-251-0758
+            214-861-5556
         </p>
-        <hr>
+        <hr style="color: #FFFFFF;">
         <p class="fs-5" style="color: #FFFFFF;">
             <i class="fas fa-envelope" style="color: #FFFFFF;"></i>
-            quotes@hrexpertsdfw.com
+            eduardolopezparra17@gmail.com
         </p>
-        <hr>
+        <hr style="color: #FFFFFF;">
         <p class="fs-5" style="color: #FFFFFF;">
             <i class="fa-solid fa-location-dot" style="color: #FFFFFF;"></i>
             Service area
         </p>
         <p class="fs-5" style="color: #FFFFFF;">
-            Dallas, Texas. | Fort Worth, Texas.
+            8303 Skillman st | Apt 149 | Dallas, Texas. 75231
         </p>
     </div>
 </div>

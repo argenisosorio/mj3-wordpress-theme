@@ -37,9 +37,9 @@
                                 <br />
                                 <br />
                                 <h1 class="card-title" style="color: white; font-size: 50px;">
-                                    <b class="font-6">EDDIE'S SPRINKLER</b>
+                                    <b class="font-1">EDDIE'S SPRINKLER</b>
                                 </h1>
-                                <p class="card-text font-6">
+                                <p class="card-text font-8">
                                     <b style="color: white; font-size: 35px;">The Best Solution</b>
                                 </p>
                                 <p class="card-text font-6" style="color: white; font-size: 30px;">
