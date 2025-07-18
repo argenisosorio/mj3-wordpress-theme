@@ -11,7 +11,7 @@
 <div
     class="section section-1 py-5 container-fluid background-gradient-invert"
     style="
-        background-image: url('https://cdn11.bigcommerce.com/s-tjrce8etun/images/stencil/1280x1280/s/sprinklers-category__46940.original.jpg');
+        background-image: url('https://eddiessprinklers.com/wp-content/uploads/2025/07/imagen-convertida.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
