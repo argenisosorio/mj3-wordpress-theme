@@ -9,15 +9,23 @@
 ?>
 
 <div
-    class="section section-1 py-5 container-fluid background-gradient-invert"
-    style="
-        background-image: url('/wordpress/wp-content/themes/mj3-wordpress-theme/assets/images/abstract-geometric-art.webp');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    "
+	class="section section-1 py-5 container-fluid background-gradient-invert"
 >
-    <div class="py-lg-3 position-relative">
+    <!-- Video de fondo -->
+    <div class="video-background">
+        <video autoplay loop muted>
+            <source
+                src="
+                    <?php echo esc_url( get_template_directory_uri() );
+                    ?>/assets/videos/video2.mp4" alt="<?php esc_attr_e( '',
+                    'twentytwentyfour' );
+                    ?>
+                "
+                type="video/mp4"
+            >
+        </video>
+    </div>
+    <div class="py-lg-3 position-relative" style="border: ridge 1px transparent;">
         <div class="row text-center" style="min-height: 500px;">
             <div class="col-2">
             </div>
@@ -29,55 +37,29 @@
                         border: none;
                         border: ridge 1px transparent;
                         color: white;
+                        margin-top: -20px !important;
+                        /*border: ridge 1px blue;*/
                     "
                 >
-                    <div class="card-body" style="border: ridge 1px transparent;">
-                        <div class="row" style="border: ridge 1px transparent;">
-                            <div class="col-8" style="border: ridge 1px transparent;">
-                                <br />
-                                <br />
-                                <h1 class="card-title" style="color: white; font-size: 50px;">
-                                    <b class="font-1">EDDIE'S SPRINKLER</b>
-                                </h1>
-                                <p class="card-text font-8">
-                                    <b style="color: white; font-size: 35px;">The Best Solution</b>
-                                </p>
-                                <p class="card-text font-6" style="color: white; font-size: 30px;">
-                                    Sprinkler installation, repair, and maintenance
-                                </p>
-                                <a href="#about_us">
-                                    <button class="btn btn-secondary btn-grad mt-3 mb-3 font-6">
-                                        <b>ABOUT</b>
-                                    </button>
-                                </a>
-                                <br />
-                                <br />
-                            </div>
-                            <div class="col-4" style="border: ridge 1px transparent;">
-                                <video
-                                    autoplay
-                                    loop
-                                    muted
-                                    style="
-                                        max-width: 500px;
-                                        width: 100%;
-                                        height: auto;
-                                        margin-top: 50px;
-                                        border-radius: 20px;
-                                    "
-                                >
-                                    <source
-                                        src="
-                                            <?php echo esc_url( get_template_directory_uri() );
-                                            ?>/assets/videos/video.webm" alt="<?php esc_attr_e( '',
-                                            'twentytwentyfour' );
-                                            ?>
-                                        "
-                                        type="video/mp4"
-                                    >
-                                </video>
-                            </div>
-                        </div>
+                    <div class="card-body">
+                        <img
+                            src="/wordpress/wp-content/themes/mj3-wordpress-theme/assets/images/favicon.png"
+                            alt="image"
+                            width="500"
+                            class="d-inline-block align-text-top img-zoom img-fluid"
+                        >
+                        <p class="font-7" style="margin-top: -40px;">
+                            <b style="color: white; font-size: 25px;">
+                                <i class="fa fa-diamond ollapsed" style="color: #c4a459;"></i>
+                                    We love what we do forward too serving you
+                                <i class="fa fa-diamond ollapsed" style="color: #c4a459;"></i>
+                            </b>
+                        </p>
+                        <a href="#about_us">
+                            <button class="btn btn-secondary btn-grad mt-3 mb-3 font-6">
+                                <b>ABOUT</b>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

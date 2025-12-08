@@ -4,11 +4,15 @@
 <!--link rel="stylesheet" href="https://argenisosorio.github.io/inmensidad-gaitera/assets/font-awesome-6/css/all.css"-->
 <link rel="stylesheet" href="/wordpress/wp-content/themes/mj3-wordpress-theme/assets/font-awesome-6/css/all.css">
 <style>
+body {
+    background-color: #000000;
+}
 /****************/
 /* Custom Fonts */
 /****************/
 
-/* Red company: #df2528 */
+/* Burgundy: #660033 */
+/* Gold: #c4a459 */
 
 /* section-1 */
 @font-face {
@@ -143,21 +147,21 @@
 }
 
 .bg-light {
-    background-image: linear-gradient(90deg, #FFFFFF, #FFFFFF);
+    background-image: linear-gradient(90deg, #000000, #000000);
 }
 
 .nav-link {
-    color: #000000 !important;
+    color: #c4a459 !important;
 }
 
 .nav-link:hover {
-    color: #208b3e !important;
+    color: #FFFFFF !important;
     /*border-bottom: solid 1px #df2528;*/
 }
 
 .navbar-toggler {
     color: #FFFFFF !important;
-    background-color: #208b3e !important;
+    background-color: #c4a459 !important
 }
 
 .navbar-text {
@@ -250,18 +254,18 @@ hr {
 }
 
 .btn-grad {
-    background-image: linear-gradient(to right, #208b3e, #208b3e);
+    background-image: linear-gradient(to right, #c4a459, #c4a459);
     padding: 10px 25px;
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
-    color: #FFFFFF;
+    color: #000000;
     border-radius: 0px;
-    border: ridge 1px #208b3e;
+    border: ridge 1px #c4a459;
 }
 
 .btn-grad:hover {
-    background-image: linear-gradient(to right, #000000, #208b3e);
+    background-image: linear-gradient(to right, #000000, #c4a459);
     background-position: right center; /* change the direction of the change here */
     color: #FFFFFF;
     text-decoration: none;
@@ -447,7 +451,7 @@ hr {
     top: 0;
     left: 0;
     height: 5px; /* Altura de la barra */
-    background-color: #208b3e; /* Color de la barra */
+    background-color: #c4a459; /* Color de la barra */
     width: 0%; /* Ancho inicial */
     z-index: 1000; /* Aparece encima de todo */
 }
@@ -501,57 +505,43 @@ hr {
     class="section3"
     style="
         width: 100%;
-        background-color: #208b3e;
+        background-color: #660033;
         padding: 10px;
     "
 >
     <div class="container">
         <div class="row" style="border: ridge 1px transparent;">
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <a
-                    class="email-text text-decoration-none"
-                    href="mailto:eduardolopezparra17@gmail.com"
+            <div class="col-8" style="border: ridge 1px transparent;">
+                <i class="fa-solid fa-location-dot" style="color: #c4a459;"></i>
+                <span
+                    class="font-6"
+                    style="color: #c4a459;"
                 >
-                    <i class="fas fa-envelope" style="color: #FFFFFF;"></i>
-                    <span
-                        class="font-6"
-                        style="color: #FFFFFF;"
-                    >
-                        <b>eduardolopezparra17@gmail.com</b>
-                    </span>
-                </a>
+                    <b>815 Mayfield Rd, Grand Prairie, TX 75052-6055, USA Grand Prairie</b>
+                </span>
             </div>
-            <div class="col-5">
-            </div>
-            <div class="col-3" style="border: ridge 1px transparent; text-align: right;">
+            <div class="col-4" style="border: ridge 1px transparent; text-align: right;">
                 <a
-                    href="#"
+                    href="https://www.facebook.com/people/Exclusive-Cuts/100069004735610/"
                     class="text-decoration-none"
                     style="
                         margin-right: 10px;
                         font-size: 20px;
                     "
+                    target="_blank"
                 >
-                    <i class="fa-brands fa-facebook" style="color: #FFFFFF;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #c4a459;"></i>
                 </a>
                 <a
-                    href="#"
+                    href="https://www.instagram.com/exclusivecutsgp/"
                     class="text-decoration-none"
                     style="
                         margin-right: 10px;
                         font-size: 20px;
                     "
+                    target="_blank"
                 >
-                    <i class="fa-brands fa-instagram" style="color: #FFFFFF;"></i>
-                </a>
-                <a
-                    href="#"
-                    class="text-decoration-none"
-                    style="
-                        font-size: 20px;
-                    "
-                >
-                    <i class="fa-brands fa-tiktok" style="color: #FFFFFF;"></i>
+                    <i class="fa-brands fa-instagram" style="color: #c4a459;"></i>
                 </a>
             </div>
         </div>
@@ -593,7 +583,7 @@ hr {
                             aria-current="page"
                             href="/"
                         >
-                            HOME
+                            <b>HOME</b>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -601,7 +591,7 @@ hr {
                             class="nav-link"
                             href="#about_us"
                         >
-                            ABOUT
+                            <b>ABOUT</b>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -609,7 +599,7 @@ hr {
                             class="nav-link"
                             href="#services"
                         >
-                            SERVICES
+                            <b>SERVICES</b>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -617,7 +607,7 @@ hr {
                             class="nav-link"
                             href="#why_choose_us"
                         >
-                            WHY CHOOSE US
+                            <b>WHY CHOOSE US</b>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -625,7 +615,7 @@ hr {
                             class="nav-link"
                             href="#contact"
                         >
-                            CONTACT
+                            <b>CONTACT</b>
                         </a>
                     </li>
                 </ul>
