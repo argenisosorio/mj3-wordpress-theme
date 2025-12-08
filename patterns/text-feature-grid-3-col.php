@@ -11,7 +11,7 @@
 <a name="about_us"></a>
 <div
     class="section section-1 py-5 container-fluid"
-    style="border: ridge 1px transparent;"
+    style="border: ridge 1px transparent; background-color: #FFFFFF;"
 >
     <div
         class="row"
@@ -21,6 +21,54 @@
         "
     >
         <div class="col-2"></div>
+        <div class="col-4">
+            <div
+                class="card"
+                style="
+                    /*background-color: #18181894;*/
+                    border: ridge 1px transparent;
+                    color: #000000;
+                "
+            >
+                <div class="card-body">
+                    <i class="fa fa-diamond ollapsed" style="color: #c4a459;"></i>
+                    <span style="color: #000000; font-size: 15px;">
+                        TRENDY HAIR STYLING
+                    </span>
+                    <i class="fa fa-diamond ollapsed" style="color: #c4a459;"></i>
+                    <h3
+                        class="card-title text-center mt-4"
+                        style="color: #c4a459;"
+                    >
+                        <b class="font-1" style="color: #c4a459; font-size: 45px;">
+                            From Messy Hair to Classy Hair Instantly!</b>
+                    </h3>
+                    <br>
+                    <p class="card-text" style="font-size: 20px;">
+                        At Exclusive Cuts, our motto, "We love what we do," is
+                        at the heart of every service we offer. We are a
+                        specialty salon that combines hairdressing, beauty, and
+                        personalized styling for the whole family. From modern
+                        cuts for men and women to children's hairstyles, perms,
+                        and exclusive styles, every visit is marked by passion,
+                        attention to detail, and a genuine desire to enhance
+                        your unique beauty. With dedication and artistry, we
+                        look forward to serving you and making your experience
+                        with us extraordinary.
+                    </p>
+                    <hr style="border: 1px solid #c4a459;">
+                    <br>
+                    <p class="text-center">
+                        <i style="font-size: 25px; color: #c4a459">
+                            <b>
+                                "More than a salon, your personal space where
+                                beauty is designed with heart."
+                            </b>
+                        </i>
+                    </p>
+                </div>
+            </div>
+        </div>
         <div class="col-4">
             <img
                 class="img-zoom"
@@ -33,75 +81,6 @@
                 "
                 alt="image"
             >
-        </div>
-        <div class="col-4">
-        <div
-            class="card"
-            style="
-                /*background-color: #18181894;*/
-                border: ridge 1px transparent;
-                color: #000000;
-            "
-        >
-            <div class="card-body">
-                <h3
-                    class="card-title text-center"
-                    style="color: #000000;"
-                >
-                    <b
-                        class="font-6"
-                        style="
-                            color: #208b3e;
-                            font-size: 35px;
-                        "
-                    >
-                        EDDIE'S SPRINKLER
-                    </b>
-                </h3>
-                <br>
-                <p class="card-text" style="font-size: 20px;">
-                    At Eddie's Sprinkler, we are dedicated to providing
-                    comprehensive solutions for irrigation systems, ensuring
-                    that your garden or green space always looks impeccable. With
-                    years of experience in the sector, we have become a
-                    benchmark for reliability and efficiency in sprinkler
-                    installation, repair, and maintenance.
-                </p>
-                <p class="card-text" style="font-size: 20px;">
-                    <b style="font-size: 20px;">Our differential:</b>
-                    <br>
-                    <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Specialized team</b> with extensive technical knowledge and certifications.
-                    <br>
-                    <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Personalized attention</b>, tailoring each solution to your specific needs.
-                    <br>
-                    <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Cutting edge technology</b> in smart irrigation systems.
-                    <br>
-                    <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Transparent quotes</b> and competitive prices.
-                    <br>
-                    <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Thorough site inspection</b> before scheduling any work.
-                    <br>
-                    <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Specialized team</b> with extensive technical knowledge and certifications.
-                </p>
-                <br>
-                <hr style="border: 1px solid #208b3e;">
-                <br>
-                <p class="text-center">
-                    <i style="font-size: 25px; color: #208b3e">
-                        <b>
-                            "We guarantee fast, efficient, and high-quality
-                            service so that your irrigation system works
-                            perfectly at all times."
-                        </b>
-                    </i>
-                </p>
-            </div>
-        </div>
         </div>
         <div class="col-2"></div>
     </div>

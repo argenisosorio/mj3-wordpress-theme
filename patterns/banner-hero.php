@@ -9,7 +9,7 @@
 ?>
 
 <div
-	class="section section-1 py-5 container-fluid background-gradient-invert"
+	class="section2 section-1 py-5 container-fluid background-gradient-invert"
 >
     <!-- Video de fondo -->
     <div class="video-background">
@@ -35,27 +35,28 @@
                     style="
                         background-color: #18181894;
                         border: none;
+                        border-radius: 0px;
                         border: ridge 1px transparent;
                         color: white;
                         margin-top: -20px !important;
                         /*border: ridge 1px blue;*/
                     "
                 >
-                    <div class="card-body">
+                    <div class="card-body section3">
                         <img
                             src="/wordpress/wp-content/themes/mj3-wordpress-theme/assets/images/favicon.png"
                             alt="image"
                             width="500"
                             class="d-inline-block align-text-top img-zoom img-fluid"
                         >
-                        <p class="font-7" style="margin-top: -40px;">
+                        <p class="font-7 section" style="margin-top: -40px;">
                             <b style="color: white; font-size: 25px;">
                                 <i class="fa fa-diamond ollapsed" style="color: #c4a459;"></i>
                                     We love what we do forward too serving you
                                 <i class="fa fa-diamond ollapsed" style="color: #c4a459;"></i>
                             </b>
                         </p>
-                        <a href="#about_us">
+                        <a href="#about_us" class="section3">
                             <button class="btn btn-secondary btn-grad mt-3 mb-3 font-6">
                                 <b>ABOUT</b>
                             </button>
