@@ -9,13 +9,20 @@
 ?>
 
 <a name="services"></a>
-<div class="section2 py-5 container-fluid background-gray">
+<div class="py-5 container-fluid background-gray">
     <div
         class="container "
         style="border: ridge 1px transparent;"
     >
-        <h1 class="text-center font-6" style="color: #208b3e;">
-            <b>SERVICES</b>
+        <div class="section3 font-3 text-center">
+            <i class="fa fa-diamond ollapsed" style="color: #c4a459;"></i>
+            <span style="color: gray; font-size: 20px;">
+                SIMPLIFIED HAIR STYLING
+            </span>
+            <i class="fa fa-diamond ollapsed" style="color: #c4a459;"></i>
+        </div>
+        <h1 class="font-2 section2 mt-2" style="color: gray;">
+            <b>Customized Hair Solutions</b>
         </h1>
         <br>
         <!-- Fila 1 -->
@@ -24,11 +31,11 @@
             style="border: ridge 1px transparent;"
         >
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom">
+                <div class="card img-zoom section2" style="background: #660033; color: white;">
                     <img
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/png/1.png" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/jpg/1.jpg" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
@@ -36,7 +43,7 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #208b3e;">Rain Sensor</h5>
+                        <h5 class="card-title font-8" style="color: #c4a459;">Rain Sensor</h5>
                         <p class="card-text">
                             Installation and configuration of sensors that
                             adjust irrigation based on weather conditions,
@@ -46,11 +53,11 @@
                 </div>
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom">
+                <div class="card img-zoom section3" style="background: #660033; color: white;">
                     <img
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/png/2.png" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/jpg/2.jpg" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
@@ -58,20 +65,21 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #208b3e;">WiFi Controller</h5>
+                        <h5 class="card-title font-8" style="color: #c4a459;">Rain Sensor</h5>
                         <p class="card-text">
-                            Remote control systems to manage your irrigation
-                            from any internet-connected device.
+                            Installation and configuration of sensors that
+                            adjust irrigation based on weather conditions,
+                            avoiding waste.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom">
+                <div class="card img-zoom section2" style="background: #660033; color: white;">
                     <img
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/png/3.png" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/jpg/3.jpg" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
@@ -79,10 +87,11 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #208b3e;">Smart Controller</h5>
+                        <h5 class="card-title font-8" style="color: #c4a459;">Rain Sensor</h5>
                         <p class="card-text">
-                            Advanced technology that optimizes water use based
-                            on your garden's needs.
+                            Installation and configuration of sensors that
+                            adjust irrigation based on weather conditions,
+                            avoiding waste.
                         </p>
                     </div>
                 </div>
@@ -96,11 +105,11 @@
             style="border: ridge 1px transparent;"
         >
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom">
+                <div class="card img-zoom section3" style="background: #660033; color: white;">
                     <img
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/png/4.png" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/jpg/4.jpg" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
@@ -108,20 +117,21 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #208b3e;">Installation Review</h5>
+                        <h5 class="card-title font-8" style="color: #c4a459;">Rain Sensor</h5>
                         <p class="card-text">
-                            Professional evaluation to detect faults and improve
-                            the efficiency of your current system.
+                            Installation and configuration of sensors that
+                            adjust irrigation based on weather conditions,
+                            avoiding waste.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom">
+                <div class="card img-zoom section2" style="background: #660033; color: white;">
                     <img
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/png/5.png" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/jpg/5.jpg" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
@@ -129,20 +139,21 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #208b3e;">New Installation</h5>
+                        <h5 class="card-title font-8" style="color: #c4a459;">Rain Sensor</h5>
                         <p class="card-text">
-                            Design and implementation of customized irrigation
-                            systems tailored to your green spaces.
+                            Installation and configuration of sensors that
+                            adjust irrigation based on weather conditions,
+                            avoiding waste.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom">
+                <div class="card img-zoom section3" style="background: #660033; color: white;">
                     <img
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/png/6.png" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/jpg/6.jpg" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
@@ -150,10 +161,11 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #208b3e;">Sprinkler Repair and Maintenance</h5>
+                        <h5 class="card-title font-8" style="color: #c4a459;">Rain Sensor</h5>
                         <p class="card-text">
-                            Fast and long-lasting solutions for any sprinkler
-                            problem, including preventative maintenance.
+                            Installation and configuration of sensors that
+                            adjust irrigation based on weather conditions,
+                            avoiding waste.
                         </p>
                     </div>
                 </div>

@@ -10,7 +10,7 @@
 
 <a name="about_us"></a>
 <div
-    class="section section-1 py-5 container-fluid"
+    class="section-1 py-5 container-fluid"
     style="border: ridge 1px transparent; background-color: #FFFFFF;"
 >
     <div
@@ -31,20 +31,22 @@
                 "
             >
                 <div class="card-body">
-                    <i class="fa fa-diamond ollapsed" style="color: #c4a459;"></i>
-                    <span style="color: #000000; font-size: 15px;">
-                        TRENDY HAIR STYLING
-                    </span>
-                    <i class="fa fa-diamond ollapsed" style="color: #c4a459;"></i>
+                    <div class="text-center section3 font-3">
+                        <i class="fa fa-diamond ollapsed" style="color: #c4a459;"></i>
+                        <span style="color: gray; font-size: 25px;">
+                            TRENDY HAIR STYLING
+                        </span>
+                        <i class="fa fa-diamond ollapsed" style="color: #c4a459;"></i>
+                    </div>
                     <h3
-                        class="card-title text-center mt-4"
+                        class="card-title text-center mt-4 section2"
                         style="color: #c4a459;"
                     >
                         <b class="font-1" style="color: #c4a459; font-size: 45px;">
                             From Messy Hair to Classy Hair Instantly!</b>
                     </h3>
                     <br>
-                    <p class="card-text" style="font-size: 20px;">
+                    <p class="card-text section2" style="font-size: 20px;">
                         At Exclusive Cuts, our motto, "We love what we do," is
                         at the heart of every service we offer. We are a
                         specialty salon that combines hairdressing, beauty, and
@@ -58,7 +60,7 @@
                     </p>
                     <hr style="border: 1px solid #c4a459;">
                     <br>
-                    <p class="text-center">
+                    <p class="text-center section2">
                         <i style="font-size: 25px; color: #c4a459">
                             <b>
                                 "More than a salon, your personal space where
@@ -71,11 +73,11 @@
         </div>
         <div class="col-4">
             <img
-                class="img-zoom"
+                class="img-zoom section3"
                 style="width: 100%;"
                 src="
                     <?php echo esc_url( get_template_directory_uri() );
-                    ?>/assets/images/imagen-convertida.png" alt="<?php esc_attr_e( '',
+                    ?>/assets/images/F.png" alt="<?php esc_attr_e( '',
                     'twentytwentyfour' );
                     ?>
                 "
