@@ -60,16 +60,6 @@
                         look forward to serving you and making your experience
                         with us extraordinary.
                     </p>
-                    <hr style="border: 1px solid #c4a459;">
-                    <br>
-                    <p class="text-center section2">
-                        <i style="font-size: 25px; color: #c4a459">
-                            <b>
-                                "More than a salon, your personal space where
-                                beauty is designed with heart."
-                            </b>
-                        </i>
-                    </p>
                 </div>
             </div>
         </div>
@@ -87,5 +77,17 @@
             >
         </div>
         <div class="col-2"></div>
+    </div>
+    <div class="container">
+        <hr style="border: 1px solid #c4a459;">
+        <br>
+        <p class="text-center section2">
+            <i style="font-size: 25px; color: #c4a459">
+                <b>
+                    "More than a salon, your personal space where <br>
+                    beauty is designed with heart."
+                </b>
+            </i>
+        </p>
     </div>
 </div>
