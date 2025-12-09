@@ -175,67 +175,62 @@
 </div>
 
 <a name="why_choose_us"></a>
-<div class="section section-1 py-5 container-fluid">
+<div class="section section-1 py-5 container-fluid" style="background: #660033;">
     <div
-        class="container "
+        class="container"
         style="border: ridge 1px transparent;"
     >
-        <h1 class="text-center font-6" style="color: #208b3e;">
-            <b>WHY CHOOSE US?</b>
-        </h1>
-        <br>
-        <h3 class="text-center font-6">
-            <i class="fa fa-check-circle fa-lg ollapsed" style="color: #208b3e;"></i>
-            Certified professionals with years of experience.
-        </h3>
-        <br>
-        <h3 class="text-center font-6">
-            <i class="fa fa-check-circle fa-lg ollapsed" style="color: #208b3e;"></i>
-            Fast response and efficient service.
-        </h3>
-        <br>
-        <h3 class="text-center font-6">
-            <i class="fa fa-check-circle fa-lg ollapsed" style="color: #208b3e;"></i>
-            Certified professionals with years of experience.
-        </h3>
-        <br>
-        <h3 class="text-center font-6">
-            <i class="fa fa-check-circle fa-lg ollapsed" style="color: #208b3e;"></i>
-            Guidance and advice to answer any questions you may have.
-        </h3>
-    </div>
-</div>
-
-<a name="contact"></a>
-<div class="section2 py-5 container-fluid background-red">
-    <div
-        class="container text-center"
-        style="border: ridge 1px transparent;"
-    >
-        <h1 class="font-6" style="color: #FFFFFF; font-size: 50px;">
-            <b>Contact us today!</b>
-        </h1>
-        <br>
-        <p class="text-center" style="color: #FFFFFF; font-size: 25px;">
-            Ready to optimize your irrigation system? Eddie's Sprinkler is just a phone call away.
-        </p>
-        <hr style="color: #FFFFFF;">
-        <p class="fs-5" style="color: #FFFFFF;">
-            <i class="fa-solid fa-phone" style="color: #FFFFFF;"></i>
-            214-861-5556
-        </p>
-        <hr style="color: #FFFFFF;">
-        <p class="fs-5" style="color: #FFFFFF;">
-            <i class="fas fa-envelope" style="color: #FFFFFF;"></i>
-            eduardolopezparra17@gmail.com
-        </p>
-        <hr style="color: #FFFFFF;">
-        <p class="fs-5" style="color: #FFFFFF;">
-            <i class="fa-solid fa-location-dot" style="color: #FFFFFF;"></i>
-            Service area
-        </p>
-        <p class="fs-5" style="color: #FFFFFF;">
-            8303 Skillman st | Apt 149 | Dallas, Texas. 75231
-        </p>
+        <div
+            class="row"
+            style="border: ridge 1px transparent;"
+        >
+            <div class="col-4" style="border: ridge 1px transparent;">
+                <h1 class="text-center font-6" style="color: #c4a459;">
+                    <b>WHY CHOOSE US?</b>
+                </h1>
+                <br>
+                <h3 class="font-6" style="color: #FFFFFF">
+                    <i class="fa fa-check-circle fa-lg ollapsed" style="color: #c4a459;"></i>
+                    Certified specialists
+                </h3>
+                <br>
+                <h3 class="font-6" style="color: #FFFFFF">
+                    <i class="fa fa-check-circle fa-lg ollapsed" style="color: #c4a459;"></i>
+                    High-quality products
+                </h3>
+                <br>
+                <h3 class="font-6" style="color: #FFFFFF">
+                    <i class="fa fa-check-circle fa-lg ollapsed" style="color: #c4a459;"></i>
+                    Hygienic and safe environment
+                </h3>
+                <br>
+                <h3 class="font-6" style="color: #FFFFFF">
+                    <i class="fa fa-check-circle fa-lg ollapsed" style="color: #c4a459;"></i>
+                    Personalized attention
+                </h3>
+                <br>
+                <h3 class="font-6" style="color: #FFFFFF">
+                    <i class="fa fa-check-circle fa-lg ollapsed" style="color: #c4a459;"></i>
+                    Delivered service time
+                </h3>
+                <br>
+                <h3 class="font-6" style="color: #FFFFFF">
+                    <i class="fa fa-check-circle fa-lg ollapsed" style="color: #c4a459;"></i>
+                    Transparent pricing
+                </h3>
+            </div>
+            <div class="col-6" style="border: ridge 1px transparent;">
+                <img
+                    src="
+                        <?php echo esc_url( get_template_directory_uri() );
+                        ?>/assets/images/why.jpg" alt="<?php esc_attr_e( '',
+                        'twentytwentyfour' );
+                        ?>
+                    "
+                    class="img-zoom img-fluid"
+                    alt="image"
+                >
+            </div>
+        </div>
     </div>
 </div>
