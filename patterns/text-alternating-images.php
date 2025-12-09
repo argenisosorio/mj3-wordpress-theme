@@ -354,6 +354,26 @@
                 >
             </div>
         </div>
+
+        <div class="row mt-3" style="border: ridge 1px transparent;">
+            <!-- Columna de texto - se mostrará PRIMERO en móviles -->
+            <div class="col-12 col-md-6 order-2 order-md-1">
+                <img
+                    src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/why.jpg"
+                    class="img-zoom img-fluid rounded shadow section2"
+                    alt="Salón de belleza Exclusive Cuts"
+                >
+            </div>
+            
+            <!-- Columna de imagen - se mostrará SEGUNDO en móviles -->
+            <div class="col-12 col-md-6 order-1 order-md-2 mb-4 mb-md-0" style="border: ridge 1px transparent;">
+                <img
+                    src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/why.jpg"
+                    class="img-zoom img-fluid rounded shadow section"
+                    alt="Salón de belleza Exclusive Cuts"
+                >
+            </div>
+        </div>
     </div>
 </div>
 
