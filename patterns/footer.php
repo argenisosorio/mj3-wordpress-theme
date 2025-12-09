@@ -88,6 +88,46 @@
 </script>
 
 <script>
+    /* Código para hacer rotar una imagen cada 10seg */
+    const logo2 = document.querySelector('.scissor');
+
+    function rotateLogo() {
+        // Agregar la clase para iniciar la animación
+        logo2.style.transition = 'transform 0.5s ease-in-out';
+        logo2.style.transform = 'rotate(360deg)';
+
+        // Reiniciar la rotación después de 1 segundo
+        setTimeout(() => {
+            logo2.style.transition = 'none';
+            logo2.style.transform = 'rotate(0deg)';
+        }, 1000);
+    }
+
+    // Ejecutar la rotación cada 10 segundos
+    setInterval(rotateLogo, 10000);
+</script>
+
+<script>
+    /* Código para hacer rotar una imagen cada 10seg */
+    const logo3 = document.querySelector('.scissor2');
+
+    function rotateLogo() {
+        // Agregar la clase para iniciar la animación
+        logo3.style.transition = 'transform 0.5s ease-in-out';
+        logo3.style.transform = 'rotate(360deg)';
+
+        // Reiniciar la rotación después de 1 segundo
+        setTimeout(() => {
+            logo3.style.transition = 'none';
+            logo3.style.transform = 'rotate(0deg)';
+        }, 1000);
+    }
+
+    // Ejecutar la rotación cada 10 segundos
+    setInterval(rotateLogo, 10000);
+</script>
+
+<script>
     // Script JavaScript para efecto de aparición
     const var_sections = document.querySelectorAll('.section');
     const cintillo = document.querySelectorAll('.cintillo');
