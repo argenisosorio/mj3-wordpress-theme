@@ -75,6 +75,13 @@
                 "
                 alt="image"
             >
+            <p class="text-center section mt-2">
+                <i style="font-size: 20px; color: gray">
+                    <b>
+                        10+ Years Experience | 5000+ Happy Clients | 98% Satisfaction
+                    </b>
+                </i>
+            </p>
         </div>
         <div class="col-2"></div>
     </div>
