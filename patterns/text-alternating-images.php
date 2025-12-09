@@ -29,12 +29,14 @@
         </h1>
         <br>
         <!-- Fila 1 -->
-        <div
-            class="row"
+        <div class="row"
             style="border: ridge 1px transparent;"
         >
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom section2" style="background: #660033; color: white;">
+            <div class="col-4">
+                <div
+                    class="card section2"
+                    style="background: #660033; color: white; margin-top: 5px;"
+                >
                     <img
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
@@ -55,12 +57,15 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom section3" style="background: #660033; color: white;">
+            <div class="col-4">
+                <div
+                    class="card section2"
+                    style="background: #660033; color: white; margin-top: 5px;"
+                >
                     <img
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/jpg/2.png" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/jpg/2.jpg" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
@@ -77,8 +82,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom section2" style="background: #660033; color: white;">
+            <div class="col-4">
+                <div
+                    class="card section2"
+                    style="background: #660033; color: white; margin-top: 5px;"
+                >
                     <img
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
@@ -97,16 +105,11 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Final Fila 1 -->
-        <br>
-        <!-- Fila 2 -->
-        <div
-            class="row"
-            style="border: ridge 1px transparent;"
-        >
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom section3" style="background: #660033; color: white;">
+            <div class="col-4">
+                <div
+                    class="card section2"
+                    style="background: #660033; color: white; margin-top: 5px;"
+                >
                     <img
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
@@ -127,8 +130,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom section2" style="background: #660033; color: white;">
+            <div class="col-4">
+                <div
+                    class="card section2"
+                    style="background: #660033; color: white; margin-top: 5px;"
+                >
                     <img
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
@@ -147,12 +153,15 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom section3" style="background: #660033; color: white;">
+            <div class="col-4">
+                <div
+                    class="card section2"
+                    style="background: #660033; color: white; margin-top: 5px;"
+                >
                     <img
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/jpg/1.jpg" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/jpg/6.jpg" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
@@ -170,7 +179,6 @@
                 </div>
             </div>
         </div>
-        <!-- Final Fila 2 -->
     </div>
 </div>
 
@@ -184,7 +192,7 @@
             class="row"
             style="border: ridge 1px transparent;"
         >
-            <div class="col-4" style="border: ridge 1px transparent;">
+            <div class="col-4">
                 <h1 class="text-center font-6" style="color: #c4a459;">
                     <b>WHY CHOOSE US?</b>
                 </h1>
