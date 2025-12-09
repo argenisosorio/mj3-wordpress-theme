@@ -48,7 +48,7 @@
                             'twentytwentyfour' );
                             ?>
                         "
-                        class="card-img-top"
+                        class="card-img-top img-zoom"
                         alt="image"
                     >
                     <div class="card-body font-6">
@@ -63,7 +63,7 @@
             </div>
             <div class="col-4">
                 <div
-                    class="card section2"
+                    class="card section3"
                     style="
                         background: #660033; color: white;
                         margin-top: 10px;
@@ -77,7 +77,7 @@
                             'twentytwentyfour' );
                             ?>
                         "
-                        class="card-img-top"
+                        class="card-img-top img-zoom"
                         alt="image"
                     >
                     <div class="card-body font-6">
@@ -106,7 +106,7 @@
                             'twentytwentyfour' );
                             ?>
                         "
-                        class="card-img-top"
+                        class="card-img-top img-zoom"
                         alt="image"
                     >
                     <div class="card-body font-6">
@@ -119,7 +119,7 @@
             </div>
             <div class="col-4">
                 <div
-                    class="card section2"
+                    class="card section3"
                     style="
                         background: #660033; color: white;
                         margin-top: 10px;
@@ -133,7 +133,7 @@
                             'twentytwentyfour' );
                             ?>
                         "
-                        class="card-img-top"
+                        class="card-img-top img-zoom"
                         alt="image"
                     >
                     <div class="card-body font-6">
@@ -162,13 +162,71 @@
                             'twentytwentyfour' );
                             ?>
                         "
-                        class="card-img-top"
+                        class="card-img-top img-zoom"
                         alt="image"
                     >
                     <div class="card-body font-6">
                         <h5 class="card-title font-2" style="color: #c4a459;">Hairstyles for graduations</h5>
                         <p class="card-text">
                             Memorable • Sophisticated • Timeless • Celebratory
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div
+                    class="card section3"
+                    style="
+                        background: #660033; color: white;
+                        margin-top: 10px;
+                        border-radius: 0px !important;
+                    "
+                >
+                    <img
+                        src="
+                            <?php echo esc_url( get_template_directory_uri() );
+                            ?>/assets/images/room_images/jpg/6.jpg" alt="<?php esc_attr_e( '',
+                            'twentytwentyfour' );
+                            ?>
+                        "
+                        class="card-img-top img-zoom"
+                        alt="image"
+                    >
+                    <div class="card-body font-6">
+                        <h5 class="card-title font-2" style="color: #c4a459;">
+                            Different styles
+                        </h5>
+                        <p class="card-text">
+                            Versatility • Inspiration • Uniqueness • Adaptation
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div
+                    class="card section"
+                    style="
+                        background: #660033; color: white;
+                        margin-top: 10px;
+                        border-radius: 0px !important;
+                    "
+                >
+                    <img
+                        src="
+                            <?php echo esc_url( get_template_directory_uri() );
+                            ?>/assets/images/room_images/jpg/7.jpg" alt="<?php esc_attr_e( '',
+                            'twentytwentyfour' );
+                            ?>
+                        "
+                        class="card-img-top img-zoom"
+                        alt="image"
+                    >
+                    <div class="card-body font-6">
+                        <h5 class="card-title font-2" style="color: #c4a459;">
+                            Special occasion hairstyles
+                        </h5>
+                        <p class="card-text">
+                            Glamour • Elegance • Red Carpet • Unforgettable
                         </p>
                     </div>
                 </div>
@@ -185,19 +243,48 @@
                     <img
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/jpg/6.jpg" alt="<?php esc_attr_e( '',
+                            ?>/assets/images/room_images/jpg/8.jpg" alt="<?php esc_attr_e( '',
                             'twentytwentyfour' );
                             ?>
                         "
-                        class="card-img-top"
+                        class="card-img-top img-zoom"
                         alt="image"
                     >
                     <div class="card-body font-6">
                         <h5 class="card-title font-2" style="color: #c4a459;">
-                            Different styles
+                            Hair highlights
                         </h5>
                         <p class="card-text">
-                            Versatility • Inspiration • Uniqueness • Adaptation
+                            Vibrant • Personalization • Technique • Renewal
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div
+                    class="card section3"
+                    style="
+                        background: #660033; color: white;
+                        margin-top: 10px;
+                        border-radius: 0px !important;
+                    "
+                >
+                    <img
+                        src="
+                            <?php echo esc_url( get_template_directory_uri() );
+                            ?>/assets/images/room_images/jpg/9.jpg" alt="<?php esc_attr_e( '',
+                            'twentytwentyfour' );
+                            ?>
+                        "
+                        class="card-img-top img-zoom"
+                        alt="image"
+                    >
+                    <div class="card-body font-6">
+                        <h5 class="card-title font-2" style="color: #c4a459;">
+                            Hair treatments & Care
+                        </h5>
+                        <p class="card-text">
+                            Health • Recovery • Nourishment • Protection
                         </p>
                     </div>
                 </div>
@@ -207,77 +294,114 @@
 </div>
 
 <a name="why_choose_us"></a>
-<div class="section section-1 py-5 container-fluid" style="background: #660033;">
-    <div
-        class="container"
-        style="border: ridge 1px transparent;"
-    >
+<div class="section3 section-1 py-5 container-fluid" style="background: #660033;">
+    <div class="container" style="border: ridge 1px transparent;">
         <div class="text-center mb-5">
             <img
-                src="
-                    <?php echo esc_url( get_template_directory_uri() );
-                    ?>/assets/images/peine.png" alt="<?php esc_attr_e( '',
-                    'twentytwentyfour' );
-                    ?>
-                "
-                class="img-zoom img-fluid"
-                alt="image"
+                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/peine.png"
+                class="img-zoom img-fluid section2"
+                alt="Peine decorativo"
                 width="500px"
             >
         </div>
-        <div
-            class="row"
-            style="border: ridge 1px transparent;"
-        >
-            <div class="col-6">
-                <h1 class="text-center font-6" style="color: #c4a459;">
+        
+        <div class="row" style="border: ridge 1px transparent;">
+            <!-- Columna de texto - se mostrará PRIMERO en móviles -->
+            <div class="col-12 col-md-6 order-2 order-md-1">
+                <h1 class="text-center font-6 section3" style="color: #c4a459;">
                     <i class="fa fa-diamond ollapsed" style="color: #c4a459;"></i>
                     <b class="font-2">WHY CHOOSE US?</b>
                     <i class="fa fa-diamond ollapsed" style="color: #c4a459;"></i>
                 </h1>
                 <br>
-                <h3 class="font-6" style="color: #FFFFFF">
+                <h3 class="font-6 section2" style="color: #FFFFFF">
                     <i class="fa fa-check-circle fa-lg ollapsed" style="color: #c4a459;"></i>
                     Certified specialists
                 </h3>
                 <br>
-                <h3 class="font-6" style="color: #FFFFFF">
+                <h3 class="font-6 section3" style="color: #FFFFFF">
                     <i class="fa fa-check-circle fa-lg ollapsed" style="color: #c4a459;"></i>
                     High-quality products
                 </h3>
                 <br>
-                <h3 class="font-6" style="color: #FFFFFF">
+                <h3 class="font-6 section2" style="color: #FFFFFF">
                     <i class="fa fa-check-circle fa-lg ollapsed" style="color: #c4a459;"></i>
                     Hygienic and safe environment
                 </h3>
                 <br>
-                <h3 class="font-6" style="color: #FFFFFF">
+                <h3 class="font-6 section3" style="color: #FFFFFF">
                     <i class="fa fa-check-circle fa-lg ollapsed" style="color: #c4a459;"></i>
                     Personalized attention
                 </h3>
                 <br>
-                <h3 class="font-6" style="color: #FFFFFF">
+                <h3 class="font-6 section2" style="color: #FFFFFF">
                     <i class="fa fa-check-circle fa-lg ollapsed" style="color: #c4a459;"></i>
                     Delivered service time
                 </h3>
                 <br>
-                <h3 class="font-6" style="color: #FFFFFF">
+                <h3 class="font-6 section3" style="color: #FFFFFF">
                     <i class="fa fa-check-circle fa-lg ollapsed" style="color: #c4a459;"></i>
                     Transparent pricing
                 </h3>
             </div>
-            <div class="col-6" style="border: ridge 1px transparent;">
+            
+            <!-- Columna de imagen - se mostrará SEGUNDO en móviles -->
+            <div class="col-12 col-md-6 order-1 order-md-2 mb-4 mb-md-0" style="border: ridge 1px transparent;">
                 <img
-                    src="
-                        <?php echo esc_url( get_template_directory_uri() );
-                        ?>/assets/images/why.jpg" alt="<?php esc_attr_e( '',
-                        'twentytwentyfour' );
-                        ?>
-                    "
-                    class="img-zoom img-fluid"
-                    alt="image"
+                    src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/why.jpg"
+                    class="img-zoom img-fluid rounded shadow"
+                    alt="Salón de belleza Exclusive Cuts"
                 >
             </div>
         </div>
+    </div>
+</div>
+
+<a name="location_and_contact"></a>
+<div class="section section-1 py-5 container-fluid" style="background: #FFFFFF;">
+    <div class="container" style="border: ridge 1px transparent;">
+        <h1 class="text-center font-6 section3" style="color: #c4a459;">
+            <i class="fa fa-diamond ollapsed" style="color: #c4a459;"></i>
+            <b class="font-2 title_location_contact">
+                Location and Contact
+            </b>
+            <i class="fa fa-diamond ollapsed" style="color: #c4a459;"></i>
+        </h1>
+        <br>
+        <hr style="color: #000000;">
+        <p class="fs-5 section" style="color: #000000;">
+            <a
+                href="https://www.facebook.com/people/Exclusive-Cuts/100069004735610/"
+                class="text-decoration-none"
+                style="
+                    margin-right: 10px;
+                    font-size: 20px;
+                "
+                target="_blank"
+            >
+                <i class="fa-brands fa-facebook" style="color: #c4a459;"></i>
+                Exclusive Cuts
+            </a>
+        </p>
+        <hr style="color: #000000;">
+        <p class="fs-5 section2" style="color: #000000;">
+            <a
+                href="https://www.instagram.com/exclusivecutsgp/"
+                class="text-decoration-none"
+                style="
+                    margin-right: 10px;
+                    font-size: 20px;
+                "
+                target="_blank"
+            >
+                <i class="fa-brands fa-instagram" style="color: #c4a459;"></i>
+                Exclusivecutsgp
+            </a>
+        </p>
+        <hr style="color: #000000;">
+        <p class="fs-5 section3" style="color: #000000;">
+            <i class="fa-solid fa-location-dot" style="color: #c4a459;"></i>
+            815 Mayfield Rd, USA Grand Prairie, TX 75052-6055 
+        </p>
     </div>
 </div>

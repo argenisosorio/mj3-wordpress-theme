@@ -27,11 +27,11 @@
                 alt="image"
             >
         </div>
-        <hr>
+        <hr style="color: #c4a459;">
         <br>
         <!-- Final row -->
-        <div class="text-center" style="color: #208b3e">
-            Copyright © | Eddie’s Sprinkler - All rights reserved.
+        <div class="text-center" style="color: #c4a459 ">
+            Copyright © | Exclusive Cuts - All rights reserved.
         </div>
     </div>
     <style>
