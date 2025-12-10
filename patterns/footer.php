@@ -18,12 +18,7 @@
             <img
                 class="img-zoom section3"
                 style="width: 15%;"
-                src="
-                    <?php echo esc_url( get_template_directory_uri() );
-                    ?>/assets/images/favicon.png" alt="<?php esc_attr_e( '',
-                    'twentytwentyfour' );
-                    ?>
-                "
+                src="https://exclusivecuts-gp.com/wp-content/uploads/2025/12/favicon.png"
                 alt="image"
             >
         </div>

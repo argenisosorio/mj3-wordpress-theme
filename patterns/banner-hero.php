@@ -44,7 +44,7 @@
                 >
                     <div class="card-body section3">
                         <img
-                            src="/wordpress/wp-content/themes/mj3-wordpress-theme/assets/images/favicon.png"
+                            src="https://exclusivecuts-gp.com/wp-content/uploads/2025/12/favicon.png"
                             alt="image"
                             width="500"
                             class="d-inline-block align-text-top img-zoom img-fluid"
