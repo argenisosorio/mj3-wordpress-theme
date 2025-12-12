@@ -104,3 +104,9 @@ css, ya que solo se usa en local. Debe quedar:
 
 <link rel="stylesheet" href="/wp-content/themes/mj4/assets/css/fontawesome.css">
 <link rel="stylesheet" href="/wp-content/themes/mj4/assets/font-awesome-6/css/all.css">
+
+/* section-1 */
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("/wp-content/themes/mj3-wordpress-theme/assets/fonts/OpenSans-Bold.ttf");
+}
