@@ -440,7 +440,7 @@
         <hr style="color: #000000;">
         <p class="fs-5 section3" style="color: #000000;">
             <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
-            815 Mayfield Rd, USA Grand Prairie, TX 75052-6055 
+            815 Mayfield Rd Suite 200 Grand Prairie TX 75052
         </p>
         <hr style="color: #000000;">
         <p class="fs-5 section3" style="color: #000000;">
