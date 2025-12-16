@@ -44,7 +44,7 @@
                 >
                     <div class="card-body section3">
                         <img
-                            src="/wordpress/wp-content/themes/mj3-wordpress-theme/assets/images/logo-hero-section.png
+                            src="/wordpress/wp-content/themes/beauty/assets/images/logo-hero-section.png
                             "
                             alt="image"
                             width="700"
