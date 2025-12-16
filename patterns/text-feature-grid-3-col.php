@@ -49,8 +49,8 @@
                     </h3>
                     <br>
                     <p class="card-text section2" style="font-size: 20px;">
-                        Exclusive Cuts hair salon opened in February 2008 in
-                        Grand Prairie, Texas.
+                        Exclusive cuts hair salon has been opened since February
+                        2008 in the city of Grand Prairie Texas.
                     </p>
                     <p class="card-text section2" style="font-size: 20px;">
                         Exclusive Cuts offers a range of professional haircuts

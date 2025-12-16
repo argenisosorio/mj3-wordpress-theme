@@ -84,7 +84,7 @@
                     <div class="card-body font-6">
                         <h5 class="card-title font-2" style="color: #c4a459;">
                             <span class="fas fa-star"></span>
-                            Haircuts for boys and girls
+                            Haircuts for boys
                         </h5>
                         <p class="card-text">
                             Fun • Safe • Creative • Unforgettable
@@ -144,7 +144,7 @@
                     <div class="card-body font-6">
                         <h5 class="card-title font-2" style="color: #c4a459;">
                             <span class="fas fa-star"></span>
-                            Hair drying
+                            Low fade Haircut
                         </h5>
                         <p class="card-text">
                             Volume • Care • Shine • Professional
@@ -174,7 +174,7 @@
                     <div class="card-body font-6">
                         <h5 class="card-title font-2" style="color: #c4a459;">
                             <span class="fas fa-star"></span>
-                            Hairstyles for graduations
+                            Beard trim
                         </h5>
 
                         <p class="card-text">
@@ -235,7 +235,7 @@
                     <div class="card-body font-6">
                         <h5 class="card-title font-2" style="color: #c4a459;">
                             <span class="fas fa-star"></span>
-                            Special occasion hairstyles
+                            Taper fade haircuts
                         </h5>
                         <p class="card-text">
                             Glamour • Elegance • Red Carpet • Unforgettable
@@ -265,7 +265,7 @@
                     <div class="card-body font-6">
                         <h5 class="card-title font-2" style="color: #c4a459;">
                             <span class="fas fa-star"></span>
-                            Hair highlights
+                            Haircuts for girls
                         </h5>
                         <p class="card-text">
                             Vibrant • Personalization • Technique • Renewal
@@ -310,14 +310,14 @@
 <a name="why_choose_us"></a>
 <div class="section3 section-1 py-5 container-fluid" style="background: #660033;">
     <div class="container" style="border: ridge 1px transparent;">
-        <div class="text-center mb-5">
+        <!--div class="text-center mb-5">
             <img
                 src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/peine.png"
                 class="img-zoom img-fluid section2"
                 alt="Peine decorativo"
                 width="500px"
             >
-        </div>
+        </!div-->
         
         <div class="row" style="border: ridge 1px transparent;">
             <!-- Columna de texto - se mostrará PRIMERO en móviles -->
@@ -419,7 +419,7 @@
 <div class="section3 section-1 py-4 container-fluid" style="background: #FAFAFA;">
     <div class="container text-center" style="border: ridge 1px transparent;">
         <img
-            src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/black/z-1.png"
+            src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/black/z-2.png"
             class="img-fluid section2"
             alt="Salón de belleza Exclusive Cuts"
         >
