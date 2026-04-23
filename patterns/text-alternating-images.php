@@ -36,7 +36,9 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #9c8463;">Rain Sensor</h5>
+                        <h5 class="card-title font-8" style="color: #9c8463;">
+                            Sewer Line
+                        </h5>
                         <p class="card-text">
                             Installation and configuration of sensors that
                             adjust irrigation based on weather conditions,
@@ -58,7 +60,9 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #9c8463;">WiFi Controller</h5>
+                        <h5 class="card-title font-8" style="color: #9c8463;">
+                            Water Line
+                        </h5>
                         <p class="card-text">
                             Remote control systems to manage your irrigation
                             from any internet-connected device.
@@ -79,7 +83,9 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #9c8463;">Smart Controller</h5>
+                        <h5 class="card-title font-8" style="color: #9c8463;">
+                            Gas Line
+                        </h5>
                         <p class="card-text">
                             Advanced technology that optimizes water use based
                             on your garden's needs.
@@ -108,7 +114,9 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #9c8463;">Installation Review</h5>
+                        <h5 class="card-title font-8" style="color: #9c8463;">
+                            Trenching
+                        </h5>
                         <p class="card-text">
                             Professional evaluation to detect faults and improve
                             the efficiency of your current system.
@@ -129,7 +137,9 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #9c8463;">New Installation</h5>
+                        <h5 class="card-title font-8" style="color: #9c8463;">
+                            Tunneling
+                        </h5>
                         <p class="card-text">
                             Design and implementation of customized irrigation
                             systems tailored to your green spaces.
@@ -150,7 +160,9 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #9c8463;">Sprinkler Repair and Maintenance</h5>
+                        <h5 class="card-title font-8" style="color: #9c8463;">
+                            Access Hole
+                        </h5>
                         <p class="card-text">
                             Fast and long-lasting solutions for any sprinkler
                             problem, including preventative maintenance.
@@ -160,6 +172,60 @@
             </div>
         </div>
         <!-- Final Fila 2 -->
+        <br>
+        <!-- Fila 3 -->
+        <div
+            class="row"
+            style="border: ridge 1px transparent;"
+        >
+            <div class="col-4" style="border: ridge 1px transparent;">
+                <div class="card img-zoom">
+                    <img
+                        src="
+                            <?php echo esc_url( get_template_directory_uri() );
+                            ?>/assets/images/room_images/png/4.png" alt="<?php esc_attr_e( '',
+                            'twentytwentyfour' );
+                            ?>
+                        "
+                        class="card-img-top"
+                        alt="image"
+                    >
+                    <div class="card-body font-6">
+                        <h5 class="card-title font-8" style="color: #9c8463;">
+                            Under Side Walk
+                        </h5>
+                        <p class="card-text">
+                            Professional evaluation to detect faults and improve
+                            the efficiency of your current system.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4" style="border: ridge 1px transparent;">
+                <div class="card img-zoom">
+                    <img
+                        src="
+                            <?php echo esc_url( get_template_directory_uri() );
+                            ?>/assets/images/room_images/png/5.png" alt="<?php esc_attr_e( '',
+                            'twentytwentyfour' );
+                            ?>
+                        "
+                        class="card-img-top"
+                        alt="image"
+                    >
+                    <div class="card-body font-6">
+                        <h5 class="card-title font-8" style="color: #9c8463;">
+                            Concrete Access
+                        </h5>
+                        <p class="card-text">
+                            Design and implementation of customized irrigation
+                            systems tailored to your green spaces.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Final Fila 3 -->
     </div>
 </div>
 
@@ -206,17 +272,17 @@
         </h1>
         <br>
         <p class="text-center" style="color: #FFFFFF; font-size: 25px;">
-            Ready to optimize your irrigation system? Eddie's Sprinkler is just a phone call away.
+            Ready to your project looks brand new?
         </p>
         <hr style="color: #FFFFFF;">
         <p class="fs-5" style="color: #FFFFFF;">
             <i class="fa-solid fa-phone" style="color: #FFFFFF;"></i>
-            214-861-5556
+            469-601-7849
         </p>
         <hr style="color: #FFFFFF;">
         <p class="fs-5" style="color: #FFFFFF;">
             <i class="fas fa-envelope" style="color: #FFFFFF;"></i>
-            eduardolopezparra17@gmail.com
+            ae.excavation024@gmail.com
         </p>
         <hr style="color: #FFFFFF;">
         <p class="fs-5" style="color: #FFFFFF;">
@@ -224,7 +290,7 @@
             Service area
         </p>
         <p class="fs-5" style="color: #FFFFFF;">
-            8303 Skillman st | Apt 149 | Dallas, Texas. 75231
+            1111 Ellenwood St | Dallas, Texas 75217
         </p>
     </div>
 </div>
