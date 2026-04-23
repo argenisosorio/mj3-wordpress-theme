@@ -27,7 +27,7 @@
                 style="width: 100%;"
                 src="
                     <?php echo esc_url( get_template_directory_uri() );
-                    ?>/assets/images/imagen-convertida.png" alt="<?php esc_attr_e( '',
+                    ?>/assets/images/imagen-convertida.jpg" alt="<?php esc_attr_e( '',
                     'twentytwentyfour' );
                     ?>
                 "
@@ -55,38 +55,43 @@
                             font-size: 35px;
                         "
                     >
-                        EDDIE'S SPRINKLER
+                        AE EXCAVATION
                     </b>
                 </h3>
                 <br>
                 <p class="card-text" style="font-size: 20px;">
-                    At Eddie's Sprinkler, we are dedicated to providing
-                    comprehensive solutions for irrigation systems, ensuring
-                    that your garden or green space always looks impeccable. With
-                    years of experience in the sector, we have become a
-                    benchmark for reliability and efficiency in sprinkler
-                    installation, repair, and maintenance.
+                    We are committed to providing comprehensive excavation and
+                    earthmoving solutions, ensuring that every underground
+                    project is executed with precision and safety. With years of
+                    experience in the industry, we have established ourselves as
+                    a reliable and efficient company, specializing in the
+                    installation and repair of sewer, drinking water, and gas
+                    networks, as well as trenching, tunnel construction,
+                    underpass access, and concrete drilling. Our team combines
+                    mechanical power with specialized technical expertise to
+                    ensure that every project, no matter how complex, meets the
+                    highest quality standards.
                 </p>
                 <p class="card-text" style="font-size: 20px;">
                     <b style="font-size: 20px;">Our differential:</b>
                     <br>
                     <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Specialized team</b> with extensive technical knowledge and certifications.
+                    <i class="fa fa-genderless fa-lg ollapsed"></i> Specialized team with extensive technical knowledge and current certifications.
                     <br>
                     <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Personalized attention</b>, tailoring each solution to your specific needs.
+                    <i class="fa fa-genderless fa-lg ollapsed"></i> Personalized attention, tailoring each solution to the specific needs of your project.
                     <br>
                     <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Cutting edge technology</b> in smart irrigation systems.
+                    <i class="fa fa-genderless fa-lg ollapsed"></i> State-of-the-art technology in machinery and non-destructive excavation methods.
                     <br>
                     <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Transparent quotes</b> and competitive prices.
+                    <i class="fa fa-genderless fa-lg ollapsed"></i> Transparent quotes and competitive prices with no hidden costs.
                     <br>
                     <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Thorough site inspection</b> before scheduling any work.
+                    <i class="fa fa-genderless fa-lg ollapsed"></i> Thorough site inspection before scheduling any work.
                     <br>
                     <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Specialized team</b> with extensive technical knowledge and certifications.
+                    <i class="fa fa-genderless fa-lg ollapsed"></i> Commitment to safety and regulatory compliance on every project.
                 </p>
                 <br>
                 <hr style="border: 1px solid #9c8463;">
@@ -94,9 +99,8 @@
                 <p class="text-center">
                     <i style="font-size: 25px; color: #9c8463">
                         <b>
-                            "We guarantee fast, efficient, and high-quality
-                            service so that your irrigation system works
-                            perfectly at all times."
+                            “We guarantee a fast, efficient, and high-quality
+                            service so that your project looks brand new.”
                         </b>
                     </i>
                 </p>
