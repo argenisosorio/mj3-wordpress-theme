@@ -11,7 +11,7 @@
 <div
     class="section section-1 py-5 container-fluid background-gradient-invert"
     style="
-        background-image: url('https://eddiessprinklers.com/wp-content/uploads/2025/07/imagen-convertida.webp');
+        background-image: url('https://argenisosorio.github.io/portafolio/static/img/banner-hero.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -37,13 +37,13 @@
                                 <br />
                                 <br />
                                 <h1 class="card-title" style="color: white; font-size: 50px;">
-                                    <b class="font-1">EDDIE'S SPRINKLER</b>
+                                    <b class="font-1">AE EXCAVATION</b>
                                 </h1>
                                 <p class="card-text font-8">
-                                    <b style="color: white; font-size: 35px;">The Best Solution</b>
+                                    <b style="color: white; font-size: 35px;">SHOVEL POWER</b>
                                 </p>
                                 <p class="card-text font-6" style="color: white; font-size: 30px;">
-                                    Sprinkler installation, repair, and maintenance
+                                    We dig the way, wherever you need to go
                                 </p>
                                 <a href="#about_us">
                                     <button class="btn btn-secondary btn-grad mt-3 mb-3 font-6">

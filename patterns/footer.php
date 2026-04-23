@@ -18,20 +18,19 @@
             <img
                 class="img-zoom section3"
                 style="width: 15%;"
-                src="
-                    <?php echo esc_url( get_template_directory_uri() );
-                    ?>/assets/images/favicon.png" alt="<?php esc_attr_e( '',
-                    'twentytwentyfour' );
-                    ?>
-                "
+                src="https://argenisosorio.github.io/portafolio/static/img/favicon-excavation.png"
                 alt="image"
             >
         </div>
-        <hr>
+        <hr style="color: #9c8463;">
         <br>
         <!-- Final row -->
-        <div class="text-center" style="color: #208b3e">
-            Copyright © | Eddie’s Sprinkler - All rights reserved.
+        <div class="text-center" style="color: #9c8463">
+            Copyright ©
+            <br>
+            AE EXCAVATION - SHOVEL POWER
+            <br>
+            All rights reserved.
         </div>
     </div>
     <style>

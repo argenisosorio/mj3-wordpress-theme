@@ -10,7 +10,7 @@
 
 <a name="about_us"></a>
 <div
-    class="section section-1 py-5 container-fluid"
+    class="section section-1 py-5 container-fluid background-white"
     style="border: ridge 1px transparent;"
 >
     <div
@@ -51,7 +51,7 @@
                     <b
                         class="font-6"
                         style="
-                            color: #208b3e;
+                            color: #9c8463;
                             font-size: 35px;
                         "
                     >
@@ -89,10 +89,10 @@
                     <i class="fa fa-genderless fa-lg ollapsed"></i> <b>Specialized team</b> with extensive technical knowledge and certifications.
                 </p>
                 <br>
-                <hr style="border: 1px solid #208b3e;">
+                <hr style="border: 1px solid #9c8463;">
                 <br>
                 <p class="text-center">
-                    <i style="font-size: 25px; color: #208b3e">
+                    <i style="font-size: 25px; color: #9c8463">
                         <b>
                             "We guarantee fast, efficient, and high-quality
                             service so that your irrigation system works

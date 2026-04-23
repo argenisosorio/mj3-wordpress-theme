@@ -14,7 +14,7 @@
         class="container "
         style="border: ridge 1px transparent;"
     >
-        <h1 class="text-center font-6" style="color: #208b3e;">
+        <h1 class="text-center font-6" style="color: #9c8463;">
             <b>SERVICES</b>
         </h1>
         <br>
@@ -36,7 +36,7 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #208b3e;">Rain Sensor</h5>
+                        <h5 class="card-title font-8" style="color: #9c8463;">Rain Sensor</h5>
                         <p class="card-text">
                             Installation and configuration of sensors that
                             adjust irrigation based on weather conditions,
@@ -58,7 +58,7 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #208b3e;">WiFi Controller</h5>
+                        <h5 class="card-title font-8" style="color: #9c8463;">WiFi Controller</h5>
                         <p class="card-text">
                             Remote control systems to manage your irrigation
                             from any internet-connected device.
@@ -79,7 +79,7 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #208b3e;">Smart Controller</h5>
+                        <h5 class="card-title font-8" style="color: #9c8463;">Smart Controller</h5>
                         <p class="card-text">
                             Advanced technology that optimizes water use based
                             on your garden's needs.
@@ -108,7 +108,7 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #208b3e;">Installation Review</h5>
+                        <h5 class="card-title font-8" style="color: #9c8463;">Installation Review</h5>
                         <p class="card-text">
                             Professional evaluation to detect faults and improve
                             the efficiency of your current system.
@@ -129,7 +129,7 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #208b3e;">New Installation</h5>
+                        <h5 class="card-title font-8" style="color: #9c8463;">New Installation</h5>
                         <p class="card-text">
                             Design and implementation of customized irrigation
                             systems tailored to your green spaces.
@@ -150,7 +150,7 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #208b3e;">Sprinkler Repair and Maintenance</h5>
+                        <h5 class="card-title font-8" style="color: #9c8463;">Sprinkler Repair and Maintenance</h5>
                         <p class="card-text">
                             Fast and long-lasting solutions for any sprinkler
                             problem, including preventative maintenance.
@@ -164,32 +164,32 @@
 </div>
 
 <a name="why_choose_us"></a>
-<div class="section section-1 py-5 container-fluid">
+<div class="section section-1 py-5 container-fluid background-white">
     <div
         class="container "
         style="border: ridge 1px transparent;"
     >
-        <h1 class="text-center font-6" style="color: #208b3e;">
+        <h1 class="text-center font-6" style="color: #9c8463;">
             <b>WHY CHOOSE US?</b>
         </h1>
         <br>
         <h3 class="text-center font-6">
-            <i class="fa fa-check-circle fa-lg ollapsed" style="color: #208b3e;"></i>
+            <i class="fa fa-check-circle fa-lg ollapsed" style="color: #9c8463;"></i>
             Certified professionals with years of experience.
         </h3>
         <br>
         <h3 class="text-center font-6">
-            <i class="fa fa-check-circle fa-lg ollapsed" style="color: #208b3e;"></i>
+            <i class="fa fa-check-circle fa-lg ollapsed" style="color: #9c8463;"></i>
             Fast response and efficient service.
         </h3>
         <br>
         <h3 class="text-center font-6">
-            <i class="fa fa-check-circle fa-lg ollapsed" style="color: #208b3e;"></i>
+            <i class="fa fa-check-circle fa-lg ollapsed" style="color: #9c8463;"></i>
             Certified professionals with years of experience.
         </h3>
         <br>
         <h3 class="text-center font-6">
-            <i class="fa fa-check-circle fa-lg ollapsed" style="color: #208b3e;"></i>
+            <i class="fa fa-check-circle fa-lg ollapsed" style="color: #9c8463;"></i>
             Guidance and advice to answer any questions you may have.
         </h3>
     </div>
