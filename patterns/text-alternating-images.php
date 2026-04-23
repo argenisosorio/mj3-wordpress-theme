@@ -230,7 +230,13 @@
 </div>
 
 <a name="why_choose_us"></a>
-<div class="section section-1 py-5 container-fluid background-white">
+<div
+    class="section section-1 py-5 container-fluid background-white"
+    style="
+        border-top: 5px solid #FFFFFF;
+        margin-top: -2px;
+    "
+>
     <div
         class="container "
         style="border: ridge 1px transparent;"
