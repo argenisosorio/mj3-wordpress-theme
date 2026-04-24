@@ -228,6 +228,20 @@ body {
     background-color: #FFFFFF;
 }
 
+.background-white-gradient {
+    /* Creamos un degradado mucho más grande que la pantalla */
+    background: linear-gradient(-45deg, #FFFFFF, #9c8463, #FFFFFF, #9c8463);
+    background-size: 400% 400%;
+    /* Ejecutamos la animación */
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
 .background-gray {
     background-color: #EEE;
 }
@@ -388,7 +402,7 @@ hr {
 /* Efecto aparición de las secciones */
 .section {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(50px); /* Desplazamiento inicial hacia abajo */
     transition: opacity 1.0s ease-out, transform 1.0s ease-out;
 }
 
@@ -561,7 +575,7 @@ hr {
 <!-- Cintillo negro -->
 
 <!-- Bloque del header -->
-<div class="container main-navbar" style="border: ridge 1px transparent;">
+<div class="container main-navbar section2" style="border: ridge 1px transparent;">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="https://eddiessprinklers.com">

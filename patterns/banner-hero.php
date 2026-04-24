@@ -9,7 +9,7 @@
 ?>
 
 <div
-    class="section section-1 py-5 container-fluid background-gradient-invert"
+    class="section section3 py-5 container-fluid background-gradient-invert"
     style="
         background-image: url('https://argenisosorio.github.io/portafolio/static/img/banner-hero.jpg');
         background-size: cover;
@@ -31,7 +31,7 @@
                         color: white;
                     "
                 >
-                    <div class="card-body" style="border: ridge 1px transparent;">
+                    <div class="card-body section2" style="border: ridge 1px transparent;">
                         <div class="row" style="border: ridge 1px transparent;">
                             <div class="col-8" style="border: ridge 1px transparent;">
                                 <br />
@@ -53,7 +53,7 @@
                                 <br />
                                 <br />
                             </div>
-                            <div class="col-4" style="border: ridge 1px transparent;">
+                            <div class="col-4 section" style="border: ridge 1px transparent;">
                                 <video
                                     autoplay
                                     loop

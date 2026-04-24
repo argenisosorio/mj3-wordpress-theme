@@ -21,7 +21,7 @@
         "
     >
         <div class="col-2"></div>
-        <div class="col-4">
+        <div class="col-4 section3">
             <img
                 class="img-zoom"
                 style="width: 100%;"
@@ -36,7 +36,7 @@
         </div>
         <div class="col-4">
         <div
-            class="card"
+            class="card section2"
             style="
                 /*background-color: #18181894;*/
                 border: ridge 1px transparent;
@@ -70,15 +70,18 @@
                     responsibility, precision, and a firm commitment to every
                     project.
                 </p>
-                <p class="card-text" style="font-size: 22px;">
+                <p class="card-text section2" style="font-size: 22px;">
                     <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> Important: We do not perform plumbing work. Our mission is to facilitate access so you, as a plumber, can work faster, safer, and more efficiently.
+                    <i class="fa fa-genderless fa-lg ollapsed"></i> Important:
+                    We do not perform plumbing work. Our mission is to
+                    facilitate access so you, as a plumber, can work faster,
+                    safer, and more efficiently.
                     <br>
                 </p>
                 <br>
                 <hr style="border: 1px solid #9c8463;">
                 <br>
-                <p class="text-center">
+                <p class="text-center section">
                     <i style="font-size: 30px; color: #9c8463">
                         <b>
                             "At AE Excavation LLC, we prepare the ground so

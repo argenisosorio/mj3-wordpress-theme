@@ -18,18 +18,13 @@
             <b>SERVICES</b>
         </h1>
         <br>
-        Our services include:
-        Tunnel Excavation: Clean and safe underground access, without affecting existing structures.
-        Access Points: Strategic access points for installation or repair.
-        Precise Trenching: For water, gas, and drainage lines, with the exact dimensions your project requires.
-        Concrete Patching: We leave the area functional and clean it up after the work is completed.
         <!-- Fila 1 -->
         <div
             class="row"
             style="border: ridge 1px transparent;"
         >
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom">
+            <div class="col-6" style="border: ridge 1px transparent;">
+                <div class="card img-zoom section2">
                     <img
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
@@ -41,19 +36,18 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #9c8463;">
-                            Sewer Line
-                        </h5>
+                        <h3 class="card-title font-8" style="color: #9c8463;">
+                            Tunnel excavation
+                        </h3>
                         <p class="card-text">
-                            Installation and configuration of sensors that
-                            adjust irrigation based on weather conditions,
-                            avoiding waste.
+                            Clean and safe underground access without affecting
+                            existing structures.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom">
+            <div class="col-6" style="border: ridge 1px transparent;">
+                <div class="card img-zoom section3">
                     <img
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
@@ -65,35 +59,11 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #9c8463;">
-                            Water Line
-                        </h5>
+                        <h3 class="card-title font-8" style="color: #9c8463;">
+                            Access point opening
+                        </h3>
                         <p class="card-text">
-                            Remote control systems to manage your irrigation
-                            from any internet-connected device.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom">
-                    <img
-                        src="
-                            <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/png/3.png" alt="<?php esc_attr_e( '',
-                            'twentytwentyfour' );
-                            ?>
-                        "
-                        class="card-img-top"
-                        alt="image"
-                    >
-                    <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #9c8463;">
-                            Gas Line
-                        </h5>
-                        <p class="card-text">
-                            Advanced technology that optimizes water use based
-                            on your garden's needs.
+                            Strategic locations for installation or repair.
                         </p>
                     </div>
                 </div>
@@ -106,8 +76,31 @@
             class="row"
             style="border: ridge 1px transparent;"
         >
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom">
+            <div class="col-6" style="border: ridge 1px transparent;">
+                <div class="card img-zoom section3">
+                    <img
+                        src="
+                            <?php echo esc_url( get_template_directory_uri() );
+                            ?>/assets/images/room_images/png/3.png" alt="<?php esc_attr_e( '',
+                            'twentytwentyfour' );
+                            ?>
+                        "
+                        class="card-img-top"
+                        alt="image"
+                    >
+                    <div class="card-body font-6">
+                        <h3 class="card-title font-8" style="color: #9c8463;">
+                            Precise trenching
+                        </h3>
+                        <p class="card-text">
+                            For water, gas, and drainage lines, with the exact
+                            dimensions required for your project.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6" style="border: ridge 1px transparent;">
+                <div class="card img-zoom section2">
                     <img
                         src="
                             <?php echo esc_url( get_template_directory_uri() );
@@ -119,58 +112,12 @@
                         alt="image"
                     >
                     <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #9c8463;">
-                            Trenching
-                        </h5>
+                        <h3 class="card-title font-8" style="color: #9c8463;">
+                            Concrete patching
+                        </h3>
                         <p class="card-text">
-                            Professional evaluation to detect faults and improve
-                            the efficiency of your current system.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom">
-                    <img
-                        src="
-                            <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/png/5.png" alt="<?php esc_attr_e( '',
-                            'twentytwentyfour' );
-                            ?>
-                        "
-                        class="card-img-top"
-                        alt="image"
-                    >
-                    <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #9c8463;">
-                            Tunneling
-                        </h5>
-                        <p class="card-text">
-                            Design and implementation of customized irrigation
-                            systems tailored to your green spaces.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom">
-                    <img
-                        src="
-                            <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/png/6.png" alt="<?php esc_attr_e( '',
-                            'twentytwentyfour' );
-                            ?>
-                        "
-                        class="card-img-top"
-                        alt="image"
-                    >
-                    <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #9c8463;">
-                            Access Hole
-                        </h5>
-                        <p class="card-text">
-                            Fast and long-lasting solutions for any sprinkler
-                            problem, including preventative maintenance.
+                            We leave the area functional and clean it up after
+                            the work is completed.
                         </p>
                     </div>
                 </div>
@@ -178,67 +125,14 @@
         </div>
         <!-- Final Fila 2 -->
         <br>
-        <!-- Fila 3 -->
-        <div
-            class="row"
-            style="border: ridge 1px transparent;"
-        >
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom">
-                    <img
-                        src="
-                            <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/png/4.png" alt="<?php esc_attr_e( '',
-                            'twentytwentyfour' );
-                            ?>
-                        "
-                        class="card-img-top"
-                        alt="image"
-                    >
-                    <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #9c8463;">
-                            Under Side Walk
-                        </h5>
-                        <p class="card-text">
-                            Professional evaluation to detect faults and improve
-                            the efficiency of your current system.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4" style="border: ridge 1px transparent;">
-                <div class="card img-zoom">
-                    <img
-                        src="
-                            <?php echo esc_url( get_template_directory_uri() );
-                            ?>/assets/images/room_images/png/5.png" alt="<?php esc_attr_e( '',
-                            'twentytwentyfour' );
-                            ?>
-                        "
-                        class="card-img-top"
-                        alt="image"
-                    >
-                    <div class="card-body font-6">
-                        <h5 class="card-title font-8" style="color: #9c8463;">
-                            Concrete Access
-                        </h5>
-                        <p class="card-text">
-                            Design and implementation of customized irrigation
-                            systems tailored to your green spaces.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Final Fila 3 -->
     </div>
 </div>
 
 <a name="why_choose_us"></a>
 <div
-    class="section section-1 py-5 container-fluid background-white"
+    class="section section-1 py-5 container-fluid background-white-gradient"
     style="
-        border-top: 5px solid #FFFFFF;
+        /*border-top: 5px solid #FFFFFF;*/
         margin-top: -2px;
     "
 >
@@ -258,11 +152,6 @@
         <h3 class="text-center font-6">
             <i class="fa fa-check-circle fa-lg ollapsed" style="color: #9c8463;"></i>
             Fast response and efficient service.
-        </h3>
-        <br>
-        <h3 class="text-center font-6">
-            <i class="fa fa-check-circle fa-lg ollapsed" style="color: #9c8463;"></i>
-            Certified professionals with years of experience.
         </h3>
         <br>
         <h3 class="text-center font-6">
