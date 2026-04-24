@@ -18,6 +18,11 @@
             <b>SERVICES</b>
         </h1>
         <br>
+        Our services include:
+        Tunnel Excavation: Clean and safe underground access, without affecting existing structures.
+        Access Points: Strategic access points for installation or repair.
+        Precise Trenching: For water, gas, and drainage lines, with the exact dimensions your project requires.
+        Concrete Patching: We leave the area functional and clean it up after the work is completed.
         <!-- Fila 1 -->
         <div
             class="row"
@@ -283,7 +288,7 @@
         <hr style="color: #FFFFFF;">
         <p class="fs-5" style="color: #FFFFFF;">
             <i class="fa-solid fa-phone" style="color: #FFFFFF;"></i>
-            469-601-7849
+            469-870-0315
         </p>
         <hr style="color: #FFFFFF;">
         <p class="fs-5" style="color: #FFFFFF;">
@@ -296,7 +301,7 @@
             Service area
         </p>
         <p class="fs-5" style="color: #FFFFFF;">
-            1111 Ellenwood St | Dallas, Texas 75217
+            Dallas Fort Worth
         </p>
     </div>
 </div>

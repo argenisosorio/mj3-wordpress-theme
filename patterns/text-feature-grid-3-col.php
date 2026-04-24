@@ -52,55 +52,38 @@
                         class="font-6"
                         style="
                             color: #9c8463;
-                            font-size: 35px;
+                            font-size: 40px;
                         "
                     >
                         AE EXCAVATION
                     </b>
                 </h3>
                 <br>
-                <p class="card-text" style="font-size: 20px;">
-                    We are committed to providing comprehensive excavation and
-                    earthmoving solutions, ensuring that every underground
-                    project is executed with precision and safety. With years of
-                    experience in the industry, we have established ourselves as
-                    a reliable and efficient company, specializing in the
-                    installation and repair of sewer, drinking water, and gas
-                    networks, as well as trenching, tunnel construction,
-                    underpass access, and concrete drilling. Our team combines
-                    mechanical power with specialized technical expertise to
-                    ensure that every project, no matter how complex, meets the
-                    highest quality standards.
+                <p class="card-text" style="font-size: 22px;">
+                    At AE Excavation LLC, we are the strategic partner every
+                    plumber and contractor needs. We specialize in preparing the
+                    site so plumbing projects can move forward without delays or
+                    unforeseen issues, handling the most demanding part of the
+                    job: excavation.
+
+                    At AE Excavation LLC, we do the heavy lifting for you, with
+                    responsibility, precision, and a firm commitment to every
+                    project.
                 </p>
-                <p class="card-text" style="font-size: 20px;">
-                    <b style="font-size: 20px;">Our differential:</b>
+                <p class="card-text" style="font-size: 22px;">
                     <br>
+                    <i class="fa fa-genderless fa-lg ollapsed"></i> Important: We do not perform plumbing work. Our mission is to facilitate access so you, as a plumber, can work faster, safer, and more efficiently.
                     <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> Specialized team with extensive technical knowledge and current certifications.
-                    <br>
-                    <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> Personalized attention, tailoring each solution to the specific needs of your project.
-                    <br>
-                    <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> State-of-the-art technology in machinery and non-destructive excavation methods.
-                    <br>
-                    <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> Transparent quotes and competitive prices with no hidden costs.
-                    <br>
-                    <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> Thorough site inspection before scheduling any work.
-                    <br>
-                    <br>
-                    <i class="fa fa-genderless fa-lg ollapsed"></i> Commitment to safety and regulatory compliance on every project.
                 </p>
                 <br>
                 <hr style="border: 1px solid #9c8463;">
                 <br>
                 <p class="text-center">
-                    <i style="font-size: 25px; color: #9c8463">
+                    <i style="font-size: 30px; color: #9c8463">
                         <b>
-                            “We guarantee a fast, efficient, and high-quality
-                            service so that your project looks brand new.”
+                            "At AE Excavation LLC, we prepare the ground so
+                            plumbers can work better. We don't do plumbing. We
+                            make plumbing possible."
                         </b>
                     </i>
                 </p>
