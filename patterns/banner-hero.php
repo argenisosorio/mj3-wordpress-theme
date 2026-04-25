@@ -36,13 +36,13 @@
                             <div class="col-8" style="border: ridge 1px transparent;">
                                 <br />
                                 <br />
-                                <h1 class="card-title" style="color: white; font-size: 50px;">
+                                <h1 class="card-title main-title" style="color: white; font-size: 50px;">
                                     <b class="font-1">AE EXCAVATION</b>
                                 </h1>
                                 <p class="card-text font-8">
-                                    <b style="color: white; font-size: 35px;">SHOVEL POWER</b>
+                                    <b class="main2-title" style="color: white; font-size: 35px;">SHOVEL POWER</b>
                                 </p>
-                                <p class="card-text font-6" style="color: white; font-size: 30px;">
+                                <p class="card-text font-6 main2-title" style="color: white; font-size: 30px;">
                                     We dig the way, wherever you need to go
                                 </p>
                                 <a href="#about_us">
