@@ -242,6 +242,14 @@ body {
     100% { background-position: 0% 50%; }
 }
 
+.cintillo_correo {
+    /* Creamos un degradado mucho más grande que la pantalla */
+    background: linear-gradient(-45deg, #000000, #9c8463, #FFFFFF, #9c8463);
+    background-size: 400% 400%;
+    /* Ejecutamos la animación */
+    animation: gradient 15s ease infinite;
+}
+
 .background-gray {
     background-color: #EEE;
 }
@@ -520,7 +528,7 @@ hr {
 
 <!-- Cintillo negro -->
 <div
-    class="section3"
+    class="cintillo_correo section3"
     style="
         width: 100%;
         background-color: #9c8463;
@@ -578,7 +586,7 @@ hr {
 <div class="container main-navbar section2" style="border: ridge 1px transparent;">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="https://eddiessprinklers.com">
+            <a class="navbar-brand" href="/">
                 <img
                     src="https://argenisosorio.github.io/portafolio/static/img/favicon-excavation.png"
                     alt="image"
@@ -606,7 +614,7 @@ hr {
                         <a
                             class="nav-link active"
                             aria-current="page"
-                            href="https://eddiessprinklers.com"
+                            href="/"
                         >
                             HOME
                         </a>
@@ -641,6 +649,14 @@ hr {
                             href="#contact"
                         >
                             CONTACT
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="#"
+                        >
+                            GALLERY
                         </a>
                     </li>
                 </ul>
