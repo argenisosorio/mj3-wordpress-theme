@@ -104,3 +104,5 @@ css, ya que solo se usa en local. Debe quedar:
 
 <link rel="stylesheet" href="/wp-content/themes/mj4/assets/css/fontawesome.css">
 <link rel="stylesheet" href="/wp-content/themes/mj4/assets/font-awesome-6/css/all.css">
+
+6- Eliminar la carpeta .git antes de generar el .zip para subirlo al wordpress.
